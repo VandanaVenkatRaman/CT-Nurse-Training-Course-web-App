@@ -7,7 +7,7 @@
    if (isset($_POST['next']) && !empty($_POST['email'])) {
 
    $uname = $_POST['email'];
-   $sql = "Select * from user where uid='$uname'";
+   $sql = "SELECT * FROM user WHERE email='$uname'";
    $result = mysqli_query($dbconn,$sql);   
 
    if(!$row = mysqli_fetch_assoc($result)){
