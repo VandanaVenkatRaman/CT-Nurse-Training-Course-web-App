@@ -68,7 +68,7 @@
     <div class="col-sm-12">
       <label for="inputPassword3" class="control-label">Password</label>
       <input type="password" class="form-control" name ="password" id="inputPassword3" placeholder="Password">
-      <p class="padding-top text-right">Forgot your password? <a href="">Reset it &rarr;</a></p>
+      <p class="padding-top text-right">Forgot your password? <a href="forgotpassword1.php">Reset it &rarr;</a></p>
     </div>
   </div>
   <div class="form-group">
