@@ -4,27 +4,22 @@
   include 'dbh.php';
   $msg = '';
 
-   if (isset($_POST['submit']) && !empty($_POST['newpassword']) && !empty($_POST['reenterpassword'])) {
+  $email = $_SESSION['username'];
+
+   if (isset($_POST['submit'])) {
    $newpassword = $_POST['newpassword'];
-   $reenterpassword = $_POST['reenterpassword'];
 
-if($newpassword == $reenterpassword ){
-  $sql = "Update user 
-          set password = '$newpassword'
-          where ;"
-   $result = mysqli_query($dbconn,$sql); 
-   $_SESSION['valid'] = true;
-     $_SESSION['timeout'] = time();
-     $_SESSION['username'] = $_POST['email'];
-   header("Location: login.php");  
-   $messageClass = "alert alert-success";
-
-}
-else{
-  $msg = 'Passwords do not match. Retry!';
-  $messageClass = "alert alert-danger";
-}
- }
+   $query_updatepassword = "UPDATE user 
+                            SET password = '$newpassword' 
+                            WHERE email ='$email'" ;
+    
+   mysqli_query($dbconn,$query_updatepassword);
+    header("Location: password_reset_successful.php");
+  }
+ else{
+    $messageClass = "none";
+   $msg = "";
+  } 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,6 +37,19 @@ else{
 
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/custom.css">
+
+    <script type="text/javascript">
+
+function validatePassword() {
+    var password = document.forms["updatepassword"]["newpassword"].value;
+  var confirm_password = document.forms["updatepassword"]["reenterpassword"].value;
+    if (password != confirm_password) {
+        alert("password mismatch");
+        return false;
+    }
+}
+
+</script> 
 </head>
 
 <body>
@@ -56,8 +64,8 @@ else{
   <div class="row-fluid">
   <div class="gray-bkgd container-padding border border-radius">
 
-<form class="form-horizontal" method="POST">
-  <h4 class="<?php echo $messageClass; ?>"><?php echo $msg; ?></h4>
+<form name= "updatepassword" class="form-horizontal" action = "" onSubmit="return validatePassword()" method="POST">
+<!--h4 class="<?php echo $messageClass; ?>"><?php echo $msg; ?></h4> -->
   <div class="form-group">
     <div class="col-sm-12">
       <label for="inputPassword3" class="control-label">New Password</label>
@@ -73,7 +81,7 @@ else{
   
   <div class="form-group">
     <div class="col-sm-12">
-      <button type="submit" class="btn btn-block btn-primary" name ="next">Submit</button>
+      <button type="submit" class="btn btn-block btn-primary" name ="submit">Submit</button>
     </div>
   </div>
 </form>
