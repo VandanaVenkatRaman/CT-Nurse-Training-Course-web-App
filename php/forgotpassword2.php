@@ -5,14 +5,15 @@
   $msg = '';
 
   $email = $_SESSION['username'];
-  $query_securityquestion = "Select securityQuestion from user where email ='$email'";
-  $securityquestionresult = mysqli_query($conn,$query_securityquestion); 
+  $query_securityquestion = "SELECT securityQuestion FROM user WHERE email ='$email'";
+  $securityquestion_result = mysqli_query($dbconn,$query_securityquestion); 
+  
 
    if (isset($_POST['next']) && !empty($_POST['answer'])) {
     $ans = $_POST['answer'];
 
-    $query_validateanswer = "Select * from user where email='$email' AND securityAnswer='$ans'";
-    $validateanswerresult = mysqli_query($conn,$query_validateanswer);  
+    $query_validateanswer = "SELECT * FROM user WHERE email='$email' AND securityAnswer='$ans'";
+    $validateanswerresult = mysqli_query($dbconn,$query_validateanswer);  
 
     if(!$row = mysqli_fetch_assoc($validateanswerresult)){
      $msg = 'Invlid Answer';
@@ -21,31 +22,16 @@
    } else {
      $_SESSION['valid'] = true;
      $_SESSION['timeout'] = time();
-     $_SESSION['email'] = $_POST['email'];
+     //$_SESSION['email'] = $_POST['email'];
        
      $messageClass = "alert alert-success";
      header("location: forgotpassword3.php");
    }
- 
-   $uname = $_POST['email'];
-   $sql = "Select * from user where uid='$uname'";
-   $result = mysqli_query($conn,$sql);   
-
-   if(!$row = mysqli_fetch_assoc($result)){
-     $msg = 'Email not registered';
-     $messageClass = "alert alert-danger";
-
-   } else {
-     $_SESSION['valid'] = true;
-     $_SESSION['timeout'] = time();
-     $_SESSION['username'] = $_POST['email'];
-      // $msg = 'You have entered valid use name and password';
-     $messageClass = "alert alert-success";
-     header("Location: forgotpassword2.php");
-   } 
-} else {
-
- }
+  } 
+  else{
+    $messageClass = "none";
+   $msg = "";
+  } 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -81,7 +67,15 @@
   <h4 class="<?php echo $messageClass; ?>"><?php echo $msg; ?></h4>
   <div class="form-group">
     <div class="col-sm-12">
-      <label for="Answer" class="control-label"></label>
+      <div>
+      <?php $fetchresult = mysqli_fetch_array($securityquestion_result);
+      echo $fetchresult[0]; ?>
+    </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-12">
+      <label for="answer" class="control-label"></label>
       <input type="text" class="form-control" name = "answer" id="answer" placeholder="answer" required>
     </div>
   </div>
