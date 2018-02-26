@@ -7,9 +7,9 @@
    if (isset($_POST['signin']) && !empty($_POST['email']) && !empty($_POST['password'])) {
    $uname = $_POST['email'];
    $pwd = $_POST['password'];
-  
+
    $sql = "Select * from user where email='$uname' AND password='$pwd'";
-   $result = mysqli_query($dbconn,$sql);   
+   $result = mysqli_query($dbconn,$sql);
 
    if(!$row = mysqli_fetch_assoc($result)){
      $msg = 'Wrong username or password';
@@ -68,7 +68,7 @@
     <div class="col-sm-12">
       <label for="inputPassword3" class="control-label">Password</label>
       <input type="password" class="form-control" name ="password" id="inputPassword3" placeholder="Password">
-      <p class="padding-top text-right">Forgot your password? <a href="">Reset it &rarr;</a></p>
+      <p class="padding-top text-right">Forgot your password? <a href="forgotpassword1.php">Reset it &rarr;</a></p>
     </div>
   </div>
   <div class="form-group">
@@ -81,7 +81,7 @@
   </div>
 <div class="row-fluid padding-top">
   <div class="container-padding border border-radius">
-    <p>First time taking the course?&nbsp;<a href="registration.php">Create an account &rarr;</a></p>
+    <p class="no-margin">First time taking the course?&nbsp;<a href="registration.php">Create an account &rarr;</a></p>
   </div>
 </div>
 </div>
