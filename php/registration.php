@@ -17,9 +17,18 @@
     $securityquestion = mysqli_real_escape_string($dbconn,$_POST['security_question']);
     $securityanswer = mysqli_real_escape_string($dbconn,$_POST['securityanswer']);
     $ctcollege = mysqli_real_escape_string($dbconn,$_POST['ctlist']);
-           
+    
+    // Check if email Id already exists. If so, display error to user.
+    $checkUserExistsSql = "SELECT * FROM `user` WHERE `email` = '$email'";
+    $resultcheckUserExistsSql =(mysqli_query($dbconn,$checkUserExistsSql));
+    if ($row = mysqli_fetch_assoc($resultcheckUserExistsSql)){
 
-      if($ctcollege != 46) {
+    $msg = 'Email Id already registered.';
+     $messageClass = "alert alert-danger";
+    }
+    // Insert user record to DB
+    else{
+        if($ctcollege != 46) {
        $schoolid = $ctcollege;
        $univflag = "N";
        $universityname ="";
@@ -27,12 +36,16 @@
         $sql = "INSERT INTO `user` (`email`, `password`, `firstName`, `lastName`, `securityQuestion`, `securityAnswer`, `graduationYear`, `isActive`, `createdBy`, `createdOn`, `updatedBy`, `updatedOn`, `universityFlag`, `otherUniversity`, `schoolID`) 
             values ('$email', '$password', '$firstname', '$lastname', '$securityquestion', '$securityanswer', '$graduationyear', 'y' ,'$firstname', NOW(), '$firstname', NOW(), '$univflag', '$universityname','$schoolid')";
 
-     if (!mysqli_query($dbconn,$sql))
-     {
-        echo("Error description: " . mysqli_error($dbconn));
+     if (!mysqli_query($dbconn,$sql)){
+        //echo("Error description: " . mysqli_error($dbconn));
+    $msg = 'Error adding User';
+     $messageClass = "alert alert-danger";
      }else{
-	    header("location: welcome.php");
-	 }
+      header("location: welcome.php");
+   }
+
+    }
+   
    }
 ?>
 
@@ -88,6 +101,7 @@ function validatePassword() {
   <div class="gray-bkgd container-padding border border-radius">
 
 <form name= "reg" class="form-horizontal" action = "" onSubmit="return validatePassword()" method = "post">
+  <h4 class="<?php echo $messageClass; ?>"><?php echo $msg; ?></h4>
   <div class="form-group">
     <div class="col-sm-12">
       <label for="fname" class="control-label">First Name</label>
