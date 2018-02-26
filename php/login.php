@@ -19,7 +19,7 @@
      $_SESSION['valid'] = true;
      $_SESSION['timeout'] = time();
      $_SESSION['email'] = $_POST['email'];
-       $msg = 'You have entered valid use name and password';
+       $msg = 'You have been successfully logged in.';
      $messageClass = "alert alert-success";
    }
 } else {
