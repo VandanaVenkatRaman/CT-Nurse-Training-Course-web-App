@@ -93,7 +93,8 @@
   <div class="container-fluid login-container">
     <div class="row-fluid">
         <img class="logo center-block" src="../images/ct-assoc-logo.png"/>
-        <h1 class="text-center">Nursing Test Registration</h1>
+        <h1 class="text-center">Nursing Online Training Application</h1>
+        <h2 class="text-center">Registration</h2>
     </div>
 
     <div class="row-fluid">
