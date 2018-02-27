@@ -61,13 +61,13 @@
   <div class="form-group">
     <div class="col-sm-12">
       <label for="inputEmail3" class="control-label">Email</label>
-      <input type="email" class="form-control" name ="email" id="inputEmail3" placeholder="Email">
+      <input type="email" class="form-control" name ="email" id="inputEmail3" placeholder="Email" required>
     </div>
   </div>
   <div class="form-group">
     <div class="col-sm-12">
       <label for="inputPassword3" class="control-label">Password</label>
-      <input type="password" class="form-control" name ="password" id="inputPassword3" placeholder="Password">
+      <input type="password" class="form-control" name ="password" id="inputPassword3" placeholder="Password" required>
       <p class="padding-top text-right">Forgot your password? <a href="forgot_password_validate_email.php">Reset it &rarr;</a></p>
     </div>
   </div>

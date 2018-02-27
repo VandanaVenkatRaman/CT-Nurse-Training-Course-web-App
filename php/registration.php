@@ -79,7 +79,7 @@
       var password = document.forms["reg"]["password"].value;
   	var confirm_password = document.forms["reg"]["cpassword"].value;
       if (password != confirm_password) {
-          alert("password mismatch");
+          alert("Password Mismatch");
           return false;
       }
   }

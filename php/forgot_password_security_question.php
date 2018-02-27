@@ -15,7 +15,7 @@
       $validateanswerresult = mysqli_query($dbconn,$query_validateanswer);
 
       if(!$row = mysqli_fetch_assoc($validateanswerresult)){
-       $msg = 'Invlid Answer';
+       $msg = 'Invalid Answer';
        $messageClass = "alert alert-danger";
 
      } else {

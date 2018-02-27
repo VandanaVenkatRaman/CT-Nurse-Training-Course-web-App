@@ -44,7 +44,7 @@
       var password = document.forms["updatepassword"]["newpassword"].value;
     var confirm_password = document.forms["updatepassword"]["reenterpassword"].value;
       if (password != confirm_password) {
-          alert("password mismatch");
+          alert("Password Mismatch");
           return false;
       }
   }
