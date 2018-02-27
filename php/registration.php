@@ -159,7 +159,7 @@
     <div class="form-group">
       <div class="col-sm-12">
         <label for="sq" class="control-label">Securtiy Question</label>
-  	  <select class="form-control" name = "security_question" id="year" placeholder="" > <br>
+  	  <select class="form-control" name = "security_question" id="sq" placeholder="" > <br>
   		<option value="What was the make and model of your first car?">What was the make and model of your first car?</option>
   		<option value="What is the first name of your best friend in high school?">What is the first name of your best friend in high school?</option>
   		<option value="In what city did you meet your spouse/boy friend?">In what city did you meet your spouse/boy friend?</option>
