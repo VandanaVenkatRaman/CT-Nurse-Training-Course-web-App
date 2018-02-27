@@ -56,7 +56,7 @@
     <div class="row-fluid">
         <img class="logo center-block" src="../images/ct-assoc-logo.png"/>
         <h1 class="text-center">Password Recovery </h1>
-        <h3 class="text-center">Security Question </h3>
+        <h4 class="text-center">Security Question </h4>
     </div>
 
     <div class="row-fluid">
