@@ -25,75 +25,6 @@ DROP DATABASE IF EXISTS NursesTrainingApp;
 CREATE DATABASE IF NOT EXISTS NursesTrainingApp;
 
 use `NursesTrainingApp`;
--- --------------------------------------------------------
-
---
--- Table structure for table `course_section`
---
-
-DROP TABLE IF EXISTS `course_section`;
-CREATE TABLE IF NOT EXISTS `course_section` (
-  `courseID` int(11) NOT NULL AUTO_INCREMENT,
-  `courseSequence` int(3) DEFAULT NULL,
-  `courseName` varchar(255) DEFAULT NULL,
-  `courseDescription` varchar(255) DEFAULT NULL,
-  `createdBy` varchar(255) NOT NULL,
-  `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `updatedBy` varchar(255) DEFAULT NULL,
-  `updatedOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (`courseID`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `document`
---
-
-DROP TABLE IF EXISTS `document`;
-CREATE TABLE IF NOT EXISTS `document` (
-  `documentID` int(11) NOT NULL AUTO_INCREMENT,
-  `documentFile` varchar(255) DEFAULT NULL,
-  `courseID` int(11) DEFAULT NULL,
-  PRIMARY KEY (`documentID`),
-  KEY `fk_document-course` (`courseID`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `lookup`
---
-
-DROP TABLE IF EXISTS `lookup`;
-CREATE TABLE IF NOT EXISTS `lookup` (
-  `lookupID` int(11) NOT NULL AUTO_INCREMENT,
-  `lookupName` varchar(255) NOT NULL,
-  `lookupValue` varchar(255) NOT NULL,
-  `createdBy` varchar(255) NOT NULL,
-  `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `updatedBy` varchar(255) DEFAULT NULL,
-  `updatedOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (`lookupID`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `permissions`
---
-
-DROP TABLE IF EXISTS `permissions`;
-CREATE TABLE IF NOT EXISTS `permissions` (
-  `permissionID` int(11) NOT NULL AUTO_INCREMENT,
-  `permissionName` varchar(255) NOT NULL,
-  `permissionDescription` varchar(255) NOT NULL,
-  `createdBy` varchar(255) NOT NULL,
-  `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `updatedBy` varchar(255) DEFAULT NULL,
-  `updatedOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (`permissionID`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -144,7 +75,7 @@ INSERT INTO `school` (`schoolName`) VALUES
 ('Saint Joseph College'),
 ('Sanford Brown College Farmington'),
 ('Southern Connecticut State University'),
-("St Vincent's College', 'CT"),
+("St Vincent's College"),
 ('Three Rivers Community College'),
 ('Trinity College'),
 ('Tunxis Community College'),
@@ -161,27 +92,49 @@ INSERT INTO `school` (`schoolName`) VALUES
 ('Western Connecticut State University'),
 ('Yale University'),
 ('other');
-
 -- --------------------------------------------------------
 
 --
--- Table structure for table `test_answer`
+-- Table structure for table `user`
 --
 
-DROP TABLE IF EXISTS `test_answer`;
-CREATE TABLE IF NOT EXISTS `test_answer` (
-  `answerID` int(11) NOT NULL AUTO_INCREMENT,
-  `answerName` varchar(255) DEFAULT NULL,
-  `isAnswer` varchar(1) DEFAULT NULL,
-  `answerDifficulty` varchar(255) DEFAULT NULL,
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE IF NOT EXISTS `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `firstName` varchar(255) NOT NULL,
+  `lastName` varchar(255) NOT NULL,
+  `securityQuestion` varchar(255) NOT NULL,
+  `securityAnswer` varchar(255) NOT NULL,
+  `graduationYear` int(4) NOT NULL,
   `isActive` varchar(1) NOT NULL,
   `createdBy` varchar(255) NOT NULL,
   `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `updatedBy` varchar(255) DEFAULT NULL,
   `updatedOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `testID` int(11) DEFAULT NULL,
-  PRIMARY KEY (`answerID`),
-  KEY `fk_answer-test` (`testID`)
+  `universityFlag` char(1) NOT NULL,
+  `otherUniversity` varchar(255) DEFAULT NULL,
+  `schoolID` int(11) DEFAULT NULL,
+  PRIMARY KEY (`email`),
+  KEY `fk_user-school` (`schoolID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+--
+-- Table structure for table `course_section`
+--
+
+DROP TABLE IF EXISTS `course_section`;
+CREATE TABLE IF NOT EXISTS `course_section` (
+  `courseID` int(11) NOT NULL AUTO_INCREMENT,
+  `courseName` varchar(255) DEFAULT NULL,
+  `courseDescription` varchar(255) DEFAULT NULL,
+  `createdBy` varchar(255) NOT NULL,
+  `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updatedBy` varchar(255) DEFAULT NULL,
+  `updatedOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`courseID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -208,47 +161,22 @@ CREATE TABLE IF NOT EXISTS `test_question` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `user`
+-- Table structure for table `test_answer`
 --
 
-DROP TABLE IF EXISTS `user`;
-CREATE TABLE IF NOT EXISTS `user` (
-  `email` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL,
-  `firstName` varchar(255) NOT NULL,
-  `lastName` varchar(255) NOT NULL,
-  `securityQuestion` varchar(255) NOT NULL,
-  `securityAnswer` varchar(255) NOT NULL,
-  `graduationYear` int(4) NOT NULL,
+DROP TABLE IF EXISTS `test_answer`;
+CREATE TABLE IF NOT EXISTS `test_answer` (
+  `answerID` int(11) NOT NULL AUTO_INCREMENT,
+  `answerName` varchar(255) DEFAULT NULL,
+  `isAnswer` varchar(1) DEFAULT NULL,
   `isActive` varchar(1) NOT NULL,
   `createdBy` varchar(255) NOT NULL,
   `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `updatedBy` varchar(255) DEFAULT NULL,
   `updatedOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `universityFlag` char(1) NOT NULL,
-  `otherUniversity` varchar(255) DEFAULT NULL,
-  `schoolID` int(11) DEFAULT NULL,
-  PRIMARY KEY (`email`),
-  KEY `fk_user-school` (`schoolID`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `user_permission`
---
-
-DROP TABLE IF EXISTS `user_permission`;
-CREATE TABLE IF NOT EXISTS `user_permission` (
-  `userPermissionID` int(11) NOT NULL AUTO_INCREMENT,
-  `isActive` varchar(1) NOT NULL,
-  `createdBy` varchar(255) NOT NULL,
-  `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `updatedBy` varchar(255) DEFAULT NULL,
-  `updatedOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `permissionID` int(11) DEFAULT NULL,
-  PRIMARY KEY (`userPermissionID`),
-  KEY `fk_permissions-userpermissions` (`permissionID`)
+  `questionID` int(11) DEFAULT NULL,
+  PRIMARY KEY (`answerID`),
+  KEY `fk_answer-question` (`questionID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -262,12 +190,14 @@ CREATE TABLE IF NOT EXISTS `user_test` (
   `testID` int(11) NOT NULL AUTO_INCREMENT,
   `createdBy` varchar(255) NOT NULL,
   `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `isCorrect` varchar(1) DEFAULT NULL,
-  `answerID` int(11) DEFAULT NULL,
   `questionID` int(11) DEFAULT NULL,
+  `answerID` int(11) DEFAULT NULL,
+  `isCorrect` varchar(1) DEFAULT NULL,
+  `email` varchar(255) NOT NULL,
   PRIMARY KEY (`testID`),
   KEY `fk_usertest-question` (`questionID`),
-  KEY `fk_usertest-answer` (`answerID`)
+  KEY `fk_usertest-answer` (`answerID`),
+  KEY `fk_usertest-user` (`email`),
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -289,6 +219,74 @@ CREATE TABLE IF NOT EXISTS `user_test_result` (
   KEY `fk_result-test` (`testID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 COMMIT;
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `document`
+--
+
+DROP TABLE IF EXISTS `document`;
+CREATE TABLE IF NOT EXISTS `document` (
+  `documentID` int(11) NOT NULL AUTO_INCREMENT,
+  `documentFile` varchar(255) DEFAULT NULL,
+  `courseID` int(11) DEFAULT NULL,
+  PRIMARY KEY (`documentID`),
+  KEY `fk_document-course` (`courseID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `lookup`
+--
+
+DROP TABLE IF EXISTS `lookup`;
+CREATE TABLE IF NOT EXISTS `lookup` (
+  `lookupID` int(11) NOT NULL AUTO_INCREMENT,
+  `lookupName` varchar(255) NOT NULL,
+  `lookupValue` varchar(255) NOT NULL,
+  `createdBy` varchar(255) NOT NULL,
+  `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updatedBy` varchar(255) DEFAULT NULL,
+  `updatedOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`lookupID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `permissions`
+--
+
+DROP TABLE IF EXISTS `permissions`;
+CREATE TABLE IF NOT EXISTS `permissions` (
+  `permissionID` int(11) NOT NULL AUTO_INCREMENT,
+  `permissionName` varchar(255) NOT NULL,
+  `permissionDescription` varchar(255) NOT NULL,
+  `createdBy` varchar(255) NOT NULL,
+  `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updatedBy` varchar(255) DEFAULT NULL,
+  `updatedOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`permissionID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user_permission`
+--
+
+DROP TABLE IF EXISTS `user_permission`;
+CREATE TABLE IF NOT EXISTS `user_permission` (
+  `userPermissionID` int(11) NOT NULL AUTO_INCREMENT,
+  `isActive` varchar(1) NOT NULL,
+  `createdBy` varchar(255) NOT NULL,
+  `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updatedBy` varchar(255) DEFAULT NULL,
+  `updatedOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `permissionID` int(11) DEFAULT NULL,
+  PRIMARY KEY (`userPermissionID`),
+  KEY `fk_permissions-userpermissions` (`permissionID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
