@@ -19,8 +19,7 @@
      $_SESSION['valid'] = true;
      $_SESSION['timeout'] = time();
      $_SESSION['email'] = $_POST['email'];
-       $msg = 'You have been successfully logged in.';
-     $messageClass = "alert alert-success";
+       header("Location: dashboard.php");
    }
 } else {
  $messageClass = "none";
