@@ -3,23 +3,36 @@
  *   TYPOGRAPHY
  ***/
 
-h1 {color:#404040;}
+ body, html { height: 100%; background-color: transparent;}
+ .bg { background:linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/bkgd.jpg); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;}
+ h1 {color:#404040;}
 
-/***
- *   HELPER CLASSES
- ***/
+ /***
+  *   HELPER CLASSES
+  ***/
 
-.gray-bkgd {background-color:#ebebeb;}
-.container-padding {padding:5%;}
-.border {border: 1px solid #cdcdcd;}
-.border-radius {border-radius: 10px;}
-.padding-top {padding-top: 3%;}
-.padding-10px {padding: 10px;}
-.no-padding {padding: 0px !important;}
-.no-margin {margin: 0px !important;}
+ .x2 {font-size: 2em !important;}
+ .white-bkgd {background-color:#ffffff;}
+ .gray-bkgd {background-color:#ebebeb;}
+ .blue-bkgd {background: #337ab7 !important;}
+ .container-padding {padding:5%;}
+ .border {border: 1px solid #cdcdcd;}
+ .border-radius {border-radius: 10px;}
+ .padding-top {padding-top: 3%;}
+ .padding-10px {padding: 10px;}
+ .margin-top {margin-top: 3%;}
+ .no-padding {padding: 0px !important;}
+ .no-margin {margin: 0px !important;}
 
-/***
- *   LAYOUT
- ***/
-.login-container {max-width: 650px; width: 100%; padding-top: 50px; margin: 0 auto;}
-.logo {max-width: 300px; width: 100%;}
+ /***
+  *   LAYOUT
+  ***/
+ .login-container {max-width: 650px; width: 100%; padding-top: 50px; margin: 0 auto;}
+ .logo {max-width: 300px; width: 100%;}
+ .navbar .navbar-nav li > a .menu-icon {color: #fbfbfb !important}
+ .navbar .navbar-nav li > a {color: #efefef !important}
+ .navbar .menu-title {color: #cdcdcd !important;}
+ .navbar .navbar-nav li.menu-item-has-children.show .sub-menu {background-color: #337ab7 !important; }
+ #quiz {width: 70% !important; display: inline-block; margin-left: 15%; padding-bottom: 5%; border: 1px solid #cdcdcd; background: #fbfbfb;}
+ #quiz h2 {text-align: center; padding-bottom: 30px; padding-top: 5%;}
+ #quiz .question {font-weight: bold; padding-bottom: 5px;}

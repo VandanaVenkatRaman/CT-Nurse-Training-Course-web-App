@@ -44,15 +44,17 @@
     <link rel="stylesheet" href="../css/custom.css">
 </head>
 
-<body>
+<body class="bg">
 
 <div class="container login-container">
   <div class="row-fluid">
+      <div class="border border-radius white-bkgd">
       <img class="logo center-block" src="../images/ct-assoc-logo.png"/>
       <h1 class="text-center">Nursing Online Training Application</h1>
+    </div>
   </div>
 
-  <div class="row-fluid">
+  <div class="row-fluid margin-top">
   <div class="gray-bkgd container-padding border border-radius">
 
 <form class="form-horizontal" method="POST">
@@ -79,8 +81,8 @@
   </div>
   </div>
 <div class="row-fluid padding-top">
-  <div class="container-padding border border-radius">
-    <p class="no-margin">First time taking the course?&nbsp;<a href="registration.php">Create an account &rarr;</a></p>
+  <div class="container-padding border border-radius white-bkgd">
+      <p class="no-margin">First time taking the course?&nbsp;<a href="registration.php">Create an account &rarr;</a></p>
   </div>
 </div>
 </div>

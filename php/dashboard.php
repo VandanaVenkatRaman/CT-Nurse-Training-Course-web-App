@@ -1,4 +1,14 @@
 
+<?php
+  ob_start();
+  session_start();
+  include 'dbh.php';
+
+  $uname = $_SESSION["email"];
+  $sql_email = "SELECT email FROM user WHERE email='$uname'";
+  $email_result = $dbconn->query($sql_email);
+
+?>
 <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -31,21 +41,27 @@
 
             <!-- Left Panel -->
 
-        <aside id="left-panel" class="left-panel">
-            <nav class="navbar navbar-expand-sm navbar-default">
+        <aside id="left-panel" class="left-panel blue-bkgd">
+            <nav class="navbar navbar-expand-sm navbar-default blue-bkgd">
 
                 <div class="navbar-header">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="./"><img src="../images/ct-assoc-logo-svg.svg" alt="Logo"></a>
-                    <a class="navbar-brand hidden" href="./"><img src="../images/logo2.png" alt="Logo"></a>
+                    <a class="navbar-brand" href="./"><img src="../images/logo-white.png" alt="Logo"></a>
+                    <a class="navbar-brand hidden" href="./"><img src="../images/logo-white-small.png" alt="Logo"></a>
                 </div>
 
                 <div id="main-menu" class="main-menu collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li class="active">
-                            <a href="index.html"> <i class="menu-icon fa fa-user"></i>About </a>
+                            <a href="index.html"> <i class="menu-icon fa fa-file"></i>Instructions</a>
+                        </li>
+                        <h3 class="menu-title">Settings</h3>
+                        <li class="menu-item-has-children dropdown">
+                            <a href="#"><i class="menu-icon fa fa-user"></i>Profile</a>
+                            <a href="#"><i class="menu-icon fa fa-bullhorn"></i>Notifications</a>
+                            <a href="forgot_password_validate_email.php"><i class="menu-icon fa fa-user-secret"></i>Reset Password</a>
                         </li>
                         <h3 class="menu-title">ASSIGNED COURSES</h3><!-- /.menu-title -->
                         <li class="menu-item-has-children dropdown">
@@ -82,8 +98,10 @@
                                 <li><i class="menu-icon fa fa-th"></i><a href="forms-advanced.html">Advanced Form</a></li>
                             </ul>
                         </li>
-                        <h3 class="menu-title">Settings</h3>
                         <h3 class="menu-title">Help</h3>
+                        <li class="menu-item-has-children dropdown">
+                            <a href="#"><i class="menu-icon fa fa-question"></i>FAQs</a>
+                        </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </nav>
@@ -116,7 +134,14 @@
                     <div class="col-sm-5">
                         <div class="user-area dropdown float-right">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img class="user-avatar rounded-circle" src="../images/admin.jpg" alt="User Avatar">
+                                <?php if ($email_result->num_rows > 0) {
+                                      // output data of each row
+                                      while ($row = $email_result->fetch_assoc()) {
+                                      echo "<span>". $row["email"] . "</span>";
+                                            }
+                                      }
+                                ?>
+                                &nbsp;<i class="menu-icon fa fa-user x2"></i>
                             </a>
 
                             <div class="user-menu dropdown-menu">
@@ -124,9 +149,7 @@
 
                                     <a class="nav-link" href="#"><i class="fa fa- user"></i>Notifications <span class="count">13</span></a>
 
-                                    <a class="nav-link" href="#"><i class="fa fa -cog"></i>Settings</a>
-
-                                    <a class="nav-link" href="#"><i class="fa fa-power -off"></i>Logout</a>
+                                    <a class="nav-link" href="logout.php"><i class="fa fa-power -off"></i>Logout</a>
                             </div>
                         </div>
 
@@ -148,7 +171,7 @@
                     <div class="page-header float-right">
                         <div class="page-title">
                             <ol class="breadcrumb text-right">
-                                <li class="active">Dashboard</li>
+                                <li class="active">&nbsp;</li>
                             </ol>
                         </div>
                     </div>
@@ -156,7 +179,7 @@
             </div>
 
             <div class="content mt-3" id="quiz" style="display:none;">
-                <h2 style="text-align: center">Take a Quiz</h2>
+                <h2>Take a Quiz</h2>
                 <h4 id="mandatoryQuestionAnswer"class="alert alert-danger" style="display: none;">You have not answered all the questions</h4>
                 <h4 id="questionAndAnswerResult"class="alert alert-info" style="display: none;"></h4>
                 <div id="questionsAndAnswers" class="text-dark col-md-12">
