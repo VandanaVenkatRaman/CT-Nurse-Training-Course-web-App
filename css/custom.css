@@ -6,6 +6,8 @@
  body, html { height: 100%; background-color: transparent;}
  .bg { background:linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/bkgd.jpg); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;}
  h1 {color:#404040;}
+ h2 {padding-bottom: 40px;}
+ p {color: #2a2a2a !important;}
 
  /***
   *   HELPER CLASSES
@@ -29,10 +31,12 @@
   ***/
  .login-container {max-width: 650px; width: 100%; padding-top: 50px; margin: 0 auto;}
  .logo {max-width: 300px; width: 100%;}
+ .navbar .navbar-brand {border-bottom: 0px !important;}
  .navbar .navbar-nav li > a .menu-icon {color: #fbfbfb !important}
  .navbar .navbar-nav li > a {color: #efefef !important}
  .navbar .menu-title {color: #cdcdcd !important;}
  .navbar .navbar-nav li.menu-item-has-children.show .sub-menu {background-color: #337ab7 !important; }
- #quiz {width: 70% !important; display: inline-block; margin-left: 15%; padding-bottom: 5%; border: 1px solid #cdcdcd; background: #fbfbfb;}
+ .page-content {padding: 5%;}
+ #quiz {width: 70% !important; display: inline-block; margin-left: 15%; padding-top: 30px; padding-bottom: 5%; border: 1px solid #cdcdcd; background: #fbfbfb;}
  #quiz h2 {text-align: center; padding-bottom: 30px; padding-top: 5%;}
  #quiz .question {font-weight: bold; padding-bottom: 5px;}

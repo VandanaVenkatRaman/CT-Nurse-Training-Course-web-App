@@ -2,6 +2,7 @@
   ob_start();
   session_start();
   include 'dbh.php';
+
   $msg = '';
 
    if (isset($_POST['signin']) && !empty($_POST['email']) && !empty($_POST['password'])) {

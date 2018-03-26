@@ -1,0 +1,82 @@
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".courseQuiz").click(function (e) {
+            $("#questionAndAnswerResult").hide();
+            $("#mandatoryQuestionAnswer").hide();
+            e.preventDefault();
+            var courseId = $(this).attr('id').split("_")[1];
+            $.ajax({
+                url: 'quiz.php',
+                type: 'post',
+                data: {'action': 'getQuizQuestionsAnswers', 'courseId': courseId},
+                success: function (data) {
+                    populateQuestionsAndAnswers(data);
+                },
+                error: function (xhr, desc, err) {
+                    console.log(xhr);
+                    console.log("Details: " + desc + "\nError:" + err);
+                }
+            });
+        });
+
+        function populateQuestionsAndAnswers(data) {
+            var html = "";
+            var questionNumber = 1;
+            for (var question in data) {
+                var answers = data[question];
+                html += "<div id=\"q" + questionNumber + "\">";
+                html += "<div class=\"question\">";
+                html += "Q" + questionNumber + ") " + question;
+                html += "</div>";
+                html += "<div class=\"answer\">";
+                for (var index in answers) {
+                    html += "<input type=\"radio\" name=\"q" + questionNumber + "\" value=\"" + answers[index].answerId + "\" required>" + answers[index].answerText + "<br>";
+                }
+                html += "<br>";
+                html += "</div>";
+                html += "</div>";
+
+                questionNumber++;
+
+            }
+
+            $("#questionsAndAnswers").empty();
+            $("#questionsAndAnswers").html(html);
+            $("#quiz").show();
+        }
+    });
+
+    $("#submitQuizAns").click(function (e) {
+        e.preventDefault();
+        var ansCollection =[];
+        var allQuestionsChecked = true;
+        $('#questionsAndAnswers').children().each(function() {
+
+            var id = $(this).attr('id');
+            if (!($('input[name=' + id + ']').is(':checked'))) {
+                $("#mandatoryQuestionAnswer").show();
+                allQuestionsChecked = false;
+                return;
+            }
+            var value = $('input[name=' + id + ']:checked').val();
+            ansCollection.push(value);
+        });
+
+        if (allQuestionsChecked) {
+            $("#mandatoryQuestionAnswer").hide();
+            $.ajax({
+                url: 'quiz.php',
+                type: 'post',
+                data: {'action': 'submitQuizAnswers', 'ansCollection': ansCollection},
+                success: function (data) {
+                    $("#questionAndAnswerResult").text("Correct Ans: "+ data.CorrectAns +" Wrong Answers:" + data.WrongAns );
+                    $("#questionAndAnswerResult").show();
+                },
+                error: function (xhr, desc, err) {
+                    console.log(xhr);
+                    console.log("Details: " + desc + "\nError:" + err);
+                }
+            });
+        }
+    });
+</script>
