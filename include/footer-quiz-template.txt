@@ -1,5 +1,6 @@
 <script type="text/javascript">
     $(document).ready(function() {
+
         $(".courseQuiz").click(function (e) {
             $("#questionAndAnswerResult").hide();
             $("#mandatoryQuestionAnswer").hide();
@@ -79,4 +80,15 @@
             });
         }
     });
+</script>
+
+<script type="text/javascript">
+    function hideButtons() {
+        var x = document.getElementById("quizButtons");
+          if (x.style.display === "none") {
+              x.style.display = "block";
+          } else {
+              x.style.display = "none";
+          }
+    }
 </script>

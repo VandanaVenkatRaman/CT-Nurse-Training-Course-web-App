@@ -6,7 +6,8 @@
 		public $title = 	"Connecticut Nurses Training Application | Dashboard";
 		public $keywords = 	"Connecticut Nurses Training Application";
 		public $H2 = "";
-		public $headinclude = "../include/page-template.txt";
+		public $headinclude = "../include/head-page-template.txt";
+		public $footerinclude = "../include/footer-page-template.txt";
 
 		// class Page's operations
 		public function __set($name, $value)
@@ -30,6 +31,7 @@
 			$this->DisplayH2();
 			echo $this->content;
 			echo "</div>\n";
+			$this -> DisplayFooterInclude();
 			echo "</body>\n</html>\n";
 		}
 
@@ -231,8 +233,12 @@
 		</div>
 </div>
 
-
 <?php
+		}
+
+		public function DisplayFooterInclude()
+		{
+			include($this->footerinclude);
 		}
 
 		public function IsURLCurrentPage($url)

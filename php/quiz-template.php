@@ -4,8 +4,13 @@
 
 	$quiztemplate = new Page();
 	$quiztemplate->H2 = "Course ID - Course Name - Course Description (from SQL table)";
-  $quiztemplate->headinclude = "../include/quiz-template.txt";
 	$quiztemplate->content = "
+
+  <div id='quizButtons'>
+  <button onclick='hideButtons()' type='button' class='btn btn-lg btn-outline-info'><a id='quiz_1' class='courseQuiz' href='quiz-template.php'>Start Quiz One</a></button>
+  &nbsp;&nbsp;
+  <button onclick='hideButtons()' type='button' class='btn btn-lg btn-outline-info'><a id='quiz_2' class='courseQuiz' href='quiz-template.php'>Start Quiz Two</a></button>
+  </div>
 
   <div class='content mt-3' id='quiz' style='display:none;''>
       <h4 id='mandatoryQuestionAnswer' class='alert alert-danger' style='display: none;''>You have not answered all the questions</h4>
@@ -20,6 +25,9 @@
   </div>
 
   ";
+
+  $quiztemplate->footerinclude = "../include/footer-quiz-template.txt";
+
 	$quiztemplate->Display();
 
 ?>

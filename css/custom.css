@@ -9,10 +9,19 @@
  h2 {padding-bottom: 40px;}
  p {color: #2a2a2a !important;}
 
+
+ /***
+  *   BUTTONS
+  ***/
+
+.courseQuiz a {border-radius: 10px !important; color: #2a2a2a !important;}
+
+
  /***
   *   HELPER CLASSES
   ***/
 
+ .hidden-div { display:none }
  .x2 {font-size: 2em !important;}
  .white-bkgd {background-color:#ffffff;}
  .gray-bkgd {background-color:#ebebeb;}
