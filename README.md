@@ -19,12 +19,13 @@ Link to github repository: https://github.com/VandanaVenkatRaman/CT-Nurse-Traini
 # Instructions
 ===================================
 1. Extract all the files in the Zip folder into C:\inetpub\wwwroot .
-2. Run the DDL nursestrainingapp.sql
+2. Run the DDL nursestrainingapp.sql (which also includes the sample Quiz questions and answers insertion query to insert into their respective table)
 3. Update credentials in php/dbh.php to match your database credentials.
 4. Access website http://localhost/php/login.php
 
-NOTE : It is possible that IIS caches some of web files. If that happens, please clear cache in IIS. You can also do IIS reset.
+NOTE : 
+1. It is possible that IIS caches some of web files. If that happens, please clear cache in IIS. You can also do IIS reset.
+2. There a small fix needed in the flow to Quiz question . So Click twice for the first time to view the quiz Question. We are working on the fix and will update in our next submission)
 
+Also the working files are on the FTP site : team4.wilsonfamilydevelopers.com
 ===================================
-
-
