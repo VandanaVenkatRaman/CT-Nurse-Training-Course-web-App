@@ -4,6 +4,15 @@ class answer {
     public $answerId;
     public $answerText;
 }
+function shuffle_assoc(&$array) {
+    $keys = array_keys($array);
+    shuffle($keys);
+    foreach($keys as $key) {
+        $new[$key] = $array[$key];
+    }
+    $array = $new;
+    return true;
+}
 include("dbh.php");
 session_start();
 $email = $_SESSION['email'];
@@ -24,7 +33,10 @@ if($_POST['action'] == "getQuizQuestionsAnswers") {
             $questionsAndAns[$question] = array();
         }
         array_push($questionsAndAns[$question], $answerObj);
+        shuffle($questionsAndAns[$question]);
     }
+
+    shuffle_assoc($questionsAndAns);
     header("Content-type:application/json");
     echo json_encode($questionsAndAns);
 }
