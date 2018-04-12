@@ -7,7 +7,7 @@
 		public $keywords = 	"Connecticut Nurses Training Application";
 		public $H2 = "";
 		public $headinclude = "../include/head-page-template.txt";
-		public $footerinclude = "../include/footer-page-template.txt";
+		public $footerinclude = "../include/footer-page-template.js";
 
 		// class Page's operations
 		public function __set($name, $value)
@@ -114,23 +114,22 @@
 						</li> -->
 						<h3 class="menu-title">Settings</h3>
 						<li class="menu-item-has-children dropdown">
-								<a href="#"><i class="menu-icon fa fa-user"></i>Profile</a>
-								<a href="#"><i class="menu-icon fa fa-bullhorn"></i>Notifications</a>
+								<a class ="Profile" href="#"><i class="menu-icon fa fa-user"></i>Profile</a>
 								<a href="forgot_password_validate_email.php"><i class="menu-icon fa fa-user-secret"></i>Reset Password</a>
 						</li>
 						<h3 class="menu-title">ASSIGNED COURSES</h3><!-- /.menu-title -->
 						<li class="menu-item-has-children dropdown">
 								<a href="#" class="dropdown-toggle" id="course1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-file"></i>Course-1</a>
 								<ul class="sub-menu children dropdown-menu">
-										<li><i class="fa fa-table"></i><a href="instructions-quiz-1.php">Instructions</a></li>
-										<li><i class="fa fa-table"></i><a id="quiz_1" class="courseQuiz" href="quiz-template.php">Quiz</a></li>
+										<li><i class="fa fa-table"></i><a id="instructions_1" class="instruction" style="cursor: pointer;">Instructions</a></li>
+                                        <li><i class="fa fa-table"></i><a id="quiz_1" class="courseQuiz" style="cursor: pointer;">Quiz</a></li>
 								</ul>
 						</li>
 						<li class="menu-item-has-children dropdown">
 								<a href="#" class="dropdown-toggle" id="course2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-file"></i>Course-2</a>
 								<ul class="sub-menu children dropdown-menu">
-										<li><i class="fa fa-table"></i><a href="instructions-quiz-2.php">Instructions</a></li>
-										<li><i class="fa fa-table"></i><a id="quiz_2" class="courseQuiz" href="quiz-template.php">Quiz</a></li>
+										<li><i class="fa fa-table"></i><a id="instructions_2" class="instruction"  style="cursor: pointer;">Instructions</a></li>
+                                        <li><i class="fa fa-table"></i><a id="quiz_2" class="courseQuiz" style="cursor: pointer;">Quiz</a></li>
 								</ul>
 						</li>
 
@@ -200,10 +199,7 @@
 								</a>
 
 								<div class="user-menu dropdown-menu">
-												<a class="nav-link" href="#"><i class="fa fa- user"></i>My Profile</a>
-
-												<a class="nav-link" href="#"><i class="fa fa- user"></i>Notifications <span class="count">13</span></a>
-
+												<a class="nav-link Profile" href="#"><i class="fa fa- user"></i>My Profile</a>
 												<a class="nav-link" href="logout.php"><i class="fa fa-power -off"></i>Logout</a>
 								</div>
 						</div>

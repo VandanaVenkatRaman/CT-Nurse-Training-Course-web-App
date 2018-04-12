@@ -86,6 +86,11 @@
       <p class="no-margin">First time taking the course?&nbsp;<a href="registration.php">Create an account &rarr;</a></p>
   </div>
 </div>
+    <div class="row-fluid padding-top">
+        <div class="container-padding border border-radius white-bkgd">
+            <p class="no-margin"><a href="admin_login.php">Login as Admin &rarr;</a></p>
+        </div>
+    </div>
 </div>
 </body>
 </html

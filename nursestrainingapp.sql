@@ -100,7 +100,6 @@ INSERT INTO `school` (`schoolName`) VALUES
 
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE IF NOT EXISTS `user` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
   `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `firstName` varchar(255) NOT NULL,
@@ -197,11 +196,31 @@ CREATE TABLE IF NOT EXISTS `user_test` (
   PRIMARY KEY (`testID`),
   KEY `fk_usertest-question` (`questionID`),
   KEY `fk_usertest-answer` (`answerID`),
-  KEY `fk_usertest-user` (`email`),
+  KEY `fk_usertest-user` (`email`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
+--
+-- Table structure for table `admin`
+--
+
+DROP TABLE IF EXISTS `admin`;
+CREATE TABLE IF NOT EXISTS `admin` (
+  `adminID` int(11) NOT NULL AUTO_INCREMENT,
+  `fname`  varchar(255) NOT NULL,
+  `lname`  varchar(255) NOT NULL,
+  `adminEmail` varchar(255) NOT NULL,
+  `adminPassword` varchar(255) NOT NULL,
+  `isActive` varchar(1) NOT NULL,
+  `createdBy` varchar(255) NOT NULL,
+  `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updatedBy` varchar(255) DEFAULT NULL,
+  `updatedOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`adminID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
 --
 -- Table structure for table `user_test_result`
 --
@@ -209,8 +228,8 @@ CREATE TABLE IF NOT EXISTS `user_test` (
 DROP TABLE IF EXISTS `user_test_result`;
 CREATE TABLE IF NOT EXISTS `user_test_result` (
   `resultID` int(11) NOT NULL AUTO_INCREMENT,
-  `userID` int(11) DEFAULT NULL,
-  `testID` int(11) DEFAULT NULL,
+  `userEmail` varchar(255) NOT NULL,
+  `courseID` `courseID` int(11) NOT NULL,
   `startDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `endDate` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `grade` int(3) DEFAULT NULL,
@@ -218,7 +237,7 @@ CREATE TABLE IF NOT EXISTS `user_test_result` (
   KEY `fk_result-user` (`userID`),
   KEY `fk_result-test` (`testID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-COMMIT;
+
 -- --------------------------------------------------------
 
 --
@@ -236,57 +255,8 @@ CREATE TABLE IF NOT EXISTS `document` (
 
 -- --------------------------------------------------------
 
---
--- Table structure for table `lookup`
---
 
-DROP TABLE IF EXISTS `lookup`;
-CREATE TABLE IF NOT EXISTS `lookup` (
-  `lookupID` int(11) NOT NULL AUTO_INCREMENT,
-  `lookupName` varchar(255) NOT NULL,
-  `lookupValue` varchar(255) NOT NULL,
-  `createdBy` varchar(255) NOT NULL,
-  `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `updatedBy` varchar(255) DEFAULT NULL,
-  `updatedOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (`lookupID`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
--- --------------------------------------------------------
-
---
--- Table structure for table `permissions`
---
-
-DROP TABLE IF EXISTS `permissions`;
-CREATE TABLE IF NOT EXISTS `permissions` (
-  `permissionID` int(11) NOT NULL AUTO_INCREMENT,
-  `permissionName` varchar(255) NOT NULL,
-  `permissionDescription` varchar(255) NOT NULL,
-  `createdBy` varchar(255) NOT NULL,
-  `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `updatedBy` varchar(255) DEFAULT NULL,
-  `updatedOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (`permissionID`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
--- --------------------------------------------------------
-
---
--- Table structure for table `user_permission`
---
-
-DROP TABLE IF EXISTS `user_permission`;
-CREATE TABLE IF NOT EXISTS `user_permission` (
-  `userPermissionID` int(11) NOT NULL AUTO_INCREMENT,
-  `isActive` varchar(1) NOT NULL,
-  `createdBy` varchar(255) NOT NULL,
-  `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `updatedBy` varchar(255) DEFAULT NULL,
-  `updatedOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `permissionID` int(11) DEFAULT NULL,
-  PRIMARY KEY (`userPermissionID`),
-  KEY `fk_permissions-userpermissions` (`permissionID`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
