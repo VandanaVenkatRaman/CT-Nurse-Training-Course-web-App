@@ -148,7 +148,6 @@ CREATE TABLE IF NOT EXISTS `user_test` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
-
 --
 -- Table structure for table `user_test_result`
 --
@@ -156,8 +155,8 @@ CREATE TABLE IF NOT EXISTS `user_test` (
 DROP TABLE IF EXISTS `user_test_result`;
 CREATE TABLE IF NOT EXISTS `user_test_result` (
   `resultID` int(11) NOT NULL AUTO_INCREMENT,
-  `email` varchar(255) NOT NULL,
-  `testID` int(11) DEFAULT NULL,
+  `userEmail` varchar(255) NOT NULL,
+  `courseID` `courseID` int(11) NOT NULL,
   `startDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `endDate` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `grade` int(3) DEFAULT NULL,
@@ -167,3 +166,46 @@ CREATE TABLE IF NOT EXISTS `user_test_result` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
+
+--
+-- Table structure for table `admin`
+--
+
+DROP TABLE IF EXISTS `admin`;
+CREATE TABLE IF NOT EXISTS `admin` (
+  `adminID` int(11) NOT NULL AUTO_INCREMENT,
+  `fname`  varchar(255) NOT NULL,
+  `lname`  varchar(255) NOT NULL,
+  `adminEmail` varchar(255) NOT NULL,
+  `adminPassword` varchar(255) NOT NULL,
+  `isActive` varchar(1) NOT NULL,
+  `createdBy` varchar(255) NOT NULL,
+  `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updatedBy` varchar(255) DEFAULT NULL,
+  `updatedOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`adminID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+/*  Dumping data for table `admin` */
+
+INSERT INTO  `admin` (`fname`,`lname`,`adminEmail`,`adminPassword`,`isActive`,`createdBy`,`createdOn`,`updatedBy`,`updatedOn`)
+VALUES('Jonnathan','Wilson','jwilson@fairfield.edu','abc','Y','System',now(),'System',now());
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `document`
+--
+DROP TABLE IF EXISTS `document`;
+CREATE TABLE IF NOT EXISTS `document` (
+  `documentID` int(11) NOT NULL AUTO_INCREMENT,
+  `documentFile` varchar(255) DEFAULT NULL,
+  `courseID` int(11) DEFAULT NULL,
+  PRIMARY KEY (`documentID`),
+  KEY `fk_document-course` (`courseID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+/*  Dumping data for table `document` */
+INSERT INTO `document` (`documentFile`,`courseID`) VALUES('https://my.visme.co/projects/dmvvdg0k-6ep5dm1gwej75dz3#s1',1);
+INSERT INTO `document` (`documentFile`,`courseID`) VALUES('https://my.visme.co/projects/kkzxj9jk-18r276j7gn3756qz#s1',2);

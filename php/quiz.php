@@ -17,6 +17,7 @@ include("dbh.php");
 session_start();
 $email = $_SESSION['email'];
 $questionsAndAns;
+$courseId;
 if($_POST['action'] == "getQuizQuestionsAnswers") {
     $courseId = $_POST['courseId'];
 
@@ -43,7 +44,8 @@ if($_POST['action'] == "getQuizQuestionsAnswers") {
 else if($_POST['action'] == "submitQuizAnswers") {
     $totalCorrectAns = 0;
     $totalWrongAns =0;
-
+    $totalQuestion =0;
+    $courseId = $_POST['courseId'];
     $userAns = $_POST[ansCollection];
     foreach ($userAns as $selectedOption){
         $query_answer ="SELECT answerID,isAnswer,questionID FROM `test_answer` where answerID =$selectedOption";
@@ -59,6 +61,7 @@ else if($_POST['action'] == "submitQuizAnswers") {
         else{
             $totalWrongAns++;
         }
+        $totalQuestion++;
         $insertUserTestQuery = "INSERT INTO `user_test` (`createdBy`,`createdOn`,`questionID`,`answerID`,`isCorrect`,`email`) VALUES('System',now(),$questionId,$answerId,'$isAnswer','$email')";
         $result1 = mysqli_query($dbconn,$insertUserTestQuery);
 //        if (!$result1) {
@@ -67,6 +70,22 @@ else if($_POST['action'] == "submitQuizAnswers") {
         $score = array("CorrectAns"=>"$totalCorrectAns", "WrongAns"=>"$totalWrongAns");
 
     }
+    $grade = ($totalCorrectAns/$totalQuestion) * 100;
+    $selectUser = "SELECT * FROM `user_test_result` where email ='$email'";
+    $selectResult  = mysqli_query($dbconn,$selectUser);
+    if(!$row = mysqli_fetch_assoc($selectResult)){
+        $insertUserResultQuery ="INSERT INTO `user_test_result`(`email`, `courseID`, `startDate`, `endDate`, `grade`) VALUES ('$email',$courseId,now(),now(),$grade)";
+        $insertResult = mysqli_query($dbconn,$insertUserResultQuery);
+    }
+    else{
+        $updateUserResultQuery ="UPDATE `user_test_result` SET `grade` =$grade WHERE `email`='$email' ";
+        $updateResult = mysqli_query($dbconn,$updateUserResultQuery);
+    }
+
+
+//    if (!$insertResult) {
+//        echo("Error description: " . mysqli_error($dbconn));
+//    }
 
     header("Content-type:application/json");
     echo json_encode($score);
