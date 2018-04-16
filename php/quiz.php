@@ -74,19 +74,24 @@ else if($_POST['action'] == "submitQuizAnswers") {
     $selectUser = "SELECT * FROM `user_test_result` where email ='$email'";
     $selectResult  = mysqli_query($dbconn,$selectUser);
     if(!$row = mysqli_fetch_assoc($selectResult)){
-        $insertUserResultQuery ="INSERT INTO `user_test_result`(`email`, `courseID`, `startDate`, `endDate`, `grade`) VALUES ('$email',$courseId,now(),now(),$grade)";
+        $insertUserResultQuery ="INSERT INTO `user_test_result`(`email`, `courseID`, `startDate`, `endDate`, `grade`,`attempt`) VALUES ('$email',$courseId,now(),now(),$grade,1)";
         $insertResult = mysqli_query($dbconn,$insertUserResultQuery);
     }
     else{
-        $updateUserResultQuery ="UPDATE `user_test_result` SET `grade` =$grade WHERE `email`='$email' ";
-        $updateResult = mysqli_query($dbconn,$updateUserResultQuery);
+
+        $selectUserResultQuery = "SELECT `attempt` FROM `user_test_result` WHERE `email`='$email' ";
+        $selectResult = mysqli_query($dbconn,$selectUserResultQuery);
+
+        $row = mysqli_fetch_array($selectResult);
+        $attempt = $row[0];
+
+
+        if($attempt <3){
+            ++$attempt;
+            $updateUserResultQuery ="UPDATE `user_test_result` SET `grade` =$grade , `attempt` = $attempt WHERE `email`='$email' ";
+            $updateResult = mysqli_query($dbconn,$updateUserResultQuery);
+        }
     }
-
-
-//    if (!$insertResult) {
-//        echo("Error description: " . mysqli_error($dbconn));
-//    }
-
     header("Content-type:application/json");
     echo json_encode($score);
 }
