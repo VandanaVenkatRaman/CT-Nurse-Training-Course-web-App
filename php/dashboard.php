@@ -1,5 +1,7 @@
 <?php
   include('variables.php');
+include ('dbh.php');
+include('courses.php');
 	require("page-template.php");
 
 	$dashboard = new Page();
@@ -31,5 +33,8 @@
    </div>
   </div>
   ";
-	$dashboard->Display();
+	$emailId = $_SESSION['email'];
+	$courses = getCourseMaterial($emailId,$dbconn);
+//	$dashboard->Display();
+	$dashboard->Display($courses);
 ?>

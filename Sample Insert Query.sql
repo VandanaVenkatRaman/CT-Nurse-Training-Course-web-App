@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS `course_section` (
   `courseID` int(11) NOT NULL AUTO_INCREMENT,
   `courseName` varchar(255) DEFAULT NULL,
   `courseDescription` varchar(255) DEFAULT NULL,
+  `courseDocument` varchar(255) DEFAULT NULL,
   `createdBy` varchar(255) NOT NULL,
   `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `updatedBy` varchar(255) DEFAULT NULL,
@@ -18,10 +19,11 @@ CREATE TABLE IF NOT EXISTS `course_section` (
 -- --------------------------------------------------------
 /*  Dumping data for table `course_section` */
 
-INSERT INTO `course_section`(`courseName`,`courseDescription`,`createdBy` ,`createdOn` ,`updatedBy`,`updatedOn`)
-VALUES 
-('GK' , 'General Knowlwdge' ,'System',now(),'System',now()),
-('Geo' , 'Geography' ,'System',now(),'System',now());
+INSERT INTO `course_section`(`courseName`,`courseDescription`,`courseDocument`,`createdBy` ,`createdOn` ,`updatedBy`,`updatedOn`)
+VALUES
+('Health and Safety Training' , 'Health and Safety Training' ,'https://my.visme.co/projects/dmvvdg0k-6ep5dm1gwej75dz3#s1','System',now(),'System',now()),
+('The Use of Social Media' , 'The Use of Social Media' ,'https://my.visme.co/projects/kkzxj9jk-18r276j7gn3756qz#s1','System',now(),'System',now());
+
 
 -- -----------------------------------------------------------
 
@@ -155,14 +157,15 @@ CREATE TABLE IF NOT EXISTS `user_test` (
 DROP TABLE IF EXISTS `user_test_result`;
 CREATE TABLE IF NOT EXISTS `user_test_result` (
   `resultID` int(11) NOT NULL AUTO_INCREMENT,
-  `userEmail` varchar(255) NOT NULL,
-  `courseID` `courseID` int(11) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `courseID`  int(11) NOT NULL,
   `startDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `endDate` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `grade` int(3) DEFAULT NULL,
+  `attempt` int(3) DEFAULT NULL,
   PRIMARY KEY (`resultID`),
-  KEY `fk_result-user` (`userID`),
-  KEY `fk_result-test` (`testID`)
+  KEY `fk_result-user` (`email`),
+  KEY `fk_result-course` (`courseID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -193,19 +196,3 @@ INSERT INTO  `admin` (`fname`,`lname`,`adminEmail`,`adminPassword`,`isActive`,`c
 VALUES('Jonnathan','Wilson','jwilson@fairfield.edu','abc','Y','System',now(),'System',now());
 -- --------------------------------------------------------
 
---
--- Table structure for table `document`
---
-DROP TABLE IF EXISTS `document`;
-CREATE TABLE IF NOT EXISTS `document` (
-  `documentID` int(11) NOT NULL AUTO_INCREMENT,
-  `documentFile` varchar(255) DEFAULT NULL,
-  `courseID` int(11) DEFAULT NULL,
-  PRIMARY KEY (`documentID`),
-  KEY `fk_document-course` (`courseID`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-/*  Dumping data for table `document` */
-INSERT INTO `document` (`documentFile`,`courseID`) VALUES('https://my.visme.co/projects/dmvvdg0k-6ep5dm1gwej75dz3#s1',1);
-INSERT INTO `document` (`documentFile`,`courseID`) VALUES('https://my.visme.co/projects/kkzxj9jk-18r276j7gn3756qz#s1',2);

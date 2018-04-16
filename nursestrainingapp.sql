@@ -129,6 +129,7 @@ CREATE TABLE IF NOT EXISTS `course_section` (
   `courseID` int(11) NOT NULL AUTO_INCREMENT,
   `courseName` varchar(255) DEFAULT NULL,
   `courseDescription` varchar(255) DEFAULT NULL,
+  `courseDocument` varchar(255) DEFAULT NULL,
   `createdBy` varchar(255) NOT NULL,
   `createdOn` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `updatedBy` varchar(255) DEFAULT NULL,
@@ -228,32 +229,18 @@ CREATE TABLE IF NOT EXISTS `admin` (
 DROP TABLE IF EXISTS `user_test_result`;
 CREATE TABLE IF NOT EXISTS `user_test_result` (
   `resultID` int(11) NOT NULL AUTO_INCREMENT,
-  `userEmail` varchar(255) NOT NULL,
-  `courseID` `courseID` int(11) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `courseID`  int(11) NOT NULL,
   `startDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `endDate` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `grade` int(3) DEFAULT NULL,
+  `attempt` int(3) DEFAULT NULL,
   PRIMARY KEY (`resultID`),
-  KEY `fk_result-user` (`userID`),
-  KEY `fk_result-test` (`testID`)
+  KEY `fk_result-user` (`email`),
+  KEY `fk_result-course` (`courseID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
 -- --------------------------------------------------------
 
---
--- Table structure for table `document`
---
-
-DROP TABLE IF EXISTS `document`;
-CREATE TABLE IF NOT EXISTS `document` (
-  `documentID` int(11) NOT NULL AUTO_INCREMENT,
-  `documentFile` varchar(255) DEFAULT NULL,
-  `courseID` int(11) DEFAULT NULL,
-  PRIMARY KEY (`documentID`),
-  KEY `fk_document-course` (`courseID`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
 
 
 

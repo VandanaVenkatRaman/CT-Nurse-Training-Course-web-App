@@ -15,7 +15,7 @@
 			$this->$name = $value;
 		}
 
-		public function Display()
+		public function Display($courses)
 		{
 			echo "<!DOCTYPE html>\n";
 			echo "<html lang='en'>\n<head>\n";
@@ -24,7 +24,7 @@
 			$this -> DisplayHeader();
 			$this -> DisplayHeadInclude();
 			echo "\n</head>\n<body>\n";
-			$this -> DisplayLeftPanel();
+			$this -> DisplayLeftPanel($courses);
 			$this -> DisplayEmail();
 			$this -> DisplayRightPanel();
 			echo "<div class='page-content'>\n";
@@ -91,20 +91,20 @@
 			include($this->headinclude);
 		}
 
-		public function DisplayLeftPanel()
-		{
+		public function DisplayLeftPanel($courses)
+{
 ?>
 <!-- Left Panel -->
 
-<aside id="left-panel" class="left-panel blue-bkgd">
+<aside id="left-panel" class="left-panel blue-bkgd" style="width:300px">
 <nav class="navbar navbar-expand-sm navbar-default blue-bkgd">
 
 		<div class="navbar-header">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
 						<i class="fa fa-bars"></i>
 				</button>
-				<a class="navbar-brand" href="dashboard.php"><img src="../images/logo-white.png" alt="Logo"></a>
-				<a class="navbar-brand hidden" href="dashboard.php"><img src="../images/logo-white-small.png" alt="Logo"></a>
+				<a class="navbar-brand " href="dashboard.php"><img src="../images/logo-white.png" alt="Logo"></a>
+				<a class="navbar-brand hidden " href="dashboard.php"><img src="../images/logo-white-small.png" alt="Logo"></a>
 		</div>
 
 		<div id="main-menu" class="main-menu collapse navbar-collapse">
@@ -117,34 +117,32 @@
 								<a class ="Profile" href="#"><i class="menu-icon fa fa-user"></i>Profile</a>
 								<a href="forgot_password_validate_email.php"><i class="menu-icon fa fa-user-secret"></i>Reset Password</a>
 						</li>
-						<h3 class="menu-title">ASSIGNED COURSES</h3><!-- /.menu-title -->
-						<li class="menu-item-has-children dropdown">
-								<a href="#" class="dropdown-toggle" id="course1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-file"></i>Course-1</a>
-								<ul class="sub-menu children dropdown-menu">
-										<li><i class="fa fa-table"></i><a id="instructions_1" class="instruction" style="cursor: pointer;">Instructions</a></li>
-                                        <li><i class="fa fa-table"></i><a id="quiz_1" class="courseQuiz" style="cursor: pointer;">Quiz</a></li>
-								</ul>
+						<h3 class="menu-title">ASSIGNED COURSES</h3>
+                    <?php
+                    foreach ($courses as $key => $value) {
+                        echo "<li class=\"menu-item-has-children dropdown\">
+								<a href=\"#\" class=\"dropdown-toggle\" id=\"course1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"> <i class=\"menu-icon fa fa-file\"></i>$value->courseName</a>
+								<ul class=\"sub-menu children dropdown-menu\">
+										<li><i class=\"fa fa-table\"></i><a id=\"instructions_$key\" class=\"instruction\" style=\"cursor: pointer;\">Instructions</a></li>";
+                        if ($value->isQuiz) {
+                                        echo "<li><i class=\"fa fa-table\"></i><a id=\"quiz_$key\" class=\"courseQuiz\" style=\"cursor: pointer;\">Quiz</a></li>";
+                                        }
+							echo "	</ul>
 						</li>
-						<li class="menu-item-has-children dropdown">
-								<a href="#" class="dropdown-toggle" id="course2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-file"></i>Course-2</a>
-								<ul class="sub-menu children dropdown-menu">
-										<li><i class="fa fa-table"></i><a id="instructions_2" class="instruction"  style="cursor: pointer;">Instructions</a></li>
-                                        <li><i class="fa fa-table"></i><a id="quiz_2" class="courseQuiz" style="cursor: pointer;">Quiz</a></li>
-								</ul>
-						</li>
-
+";
+                    }?>
 						<h3 class="menu-title">COMPLETED COURSE REPORTS</h3>
-						<li class="menu-item-has-children dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-file"></i>Course-3</a>
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-file"></i>Course-4</a>
+                    <?php
+                    foreach ($courses as $key => $value) {
+                    if ($value->isCompleted) {
+                        echo"
+                     <li class=\"menu-item-has-children dropdown\">
+								<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"> <i class=\"menu-icon fa fa-file\"></i>$value->courseName</a>
 						</li>
-						<li class="menu-item-has-children dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-th"></i>Course List Sample</a>
-								<ul class="sub-menu children dropdown-menu">
-										<li><i class="menu-icon fa fa-th"></i><a href="forms-basic.html">Basic Form</a></li>
-										<li><i class="menu-icon fa fa-th"></i><a href="forms-advanced.html">Advanced Form</a></li>
-								</ul>
-						</li>
+                        ";
+                    }
+                    }
+                    ?>
 						<h3 class="menu-title">Help</h3>
 						<li class="menu-item-has-children dropdown">
 								<a href="faq.php"><i class="menu-icon fa fa-question"></i>FAQs</a>
