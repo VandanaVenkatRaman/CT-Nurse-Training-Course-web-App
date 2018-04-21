@@ -32,6 +32,14 @@ function getCourseMaterial ($emailId, $dbConn)
         if ($row2 = mysqli_fetch_assoc($result_ResultTable)) {
             $courseAndInstructionDisplayObj->isCompleted = true;
         }
+
+        $query_ResultTable = "SELECT `courseID` FROM `user_test_result` WHERE `attempt` > 2 and `email` = '$emailId' and `courseID`= $courseId ";
+        $result_ResultTable = mysqli_query($dbConn, $query_ResultTable);
+        if ($row2 = mysqli_fetch_assoc($result_ResultTable)) {
+            $courseAndInstructionDisplayObj->isCompleted = true;
+        }
+
+
         $courseInstructionDisplay[$courseId] = $courseAndInstructionDisplayObj;
     }
     return $courseInstructionDisplay;
