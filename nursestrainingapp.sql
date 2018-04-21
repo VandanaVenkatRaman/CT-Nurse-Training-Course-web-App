@@ -240,10 +240,20 @@ CREATE TABLE IF NOT EXISTS `user_test_result` (
   KEY `fk_result-course` (`courseID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 -- --------------------------------------------------------
+--
+-- Table structure for table `user_courseCompletion_result`
+--
 
-
-
-
+CREATE TABLE IF NOT EXISTS `user_courseCompletion_result` (
+  `resultID` int(11) NOT NULL AUTO_INCREMENT,
+  `email` varchar(255) NOT NULL,
+  `endDate` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `score` int(3) DEFAULT NULL,
+  `status` varchar(255) NOT NULL,
+  PRIMARY KEY (`resultID`),
+  KEY `fk_result-user` (`email`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+-- --------------------------------------------------------
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
