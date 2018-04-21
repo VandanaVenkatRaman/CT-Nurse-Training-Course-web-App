@@ -117,26 +117,29 @@
 								<a class ="Profile" href="#"><i class="menu-icon fa fa-user"></i>Profile</a>
 								<a href="forgot_password_validate_email.php"><i class="menu-icon fa fa-user-secret"></i>Reset Password</a>
 						</li>
-						<h3 class="menu-title">ASSIGNED COURSES</h3>
+						<h3 class="menu-title">ASSIGNED MODULES</h3>
                     <?php
                     foreach ($courses as $key => $value) {
-                        echo "<li class=\"menu-item-has-children dropdown\">
+                        if(!($value->isCompleted)){
+                            echo "<li class=\"menu-item-has-children dropdown\">
 								<a href=\"#\" class=\"dropdown-toggle\" id=\"course1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"> <i class=\"menu-icon fa fa-file\"></i>$value->courseName</a>
 								<ul class=\"sub-menu children dropdown-menu\">
 										<li><i class=\"fa fa-table\"></i><a id=\"instructions_$key\" class=\"instruction\" style=\"cursor: pointer;\">Instructions</a></li>";
+
                         if ($value->isQuiz) {
                                         echo "<li><i class=\"fa fa-table\"></i><a id=\"quiz_$key\" class=\"courseQuiz\" style=\"cursor: pointer;\">Quiz</a></li>";
                                         }
 							echo "	</ul>
 						</li>
 ";
+                        }
                     }?>
-						<h3 class="menu-title">COMPLETED COURSE REPORTS</h3>
+						<h3 class="menu-title">COMPLETED MODULES</h3>
                     <?php
                     foreach ($courses as $key => $value) {
                     if ($value->isCompleted) {
                         echo"
-                     <li class=\"menu-item-has-children dropdown\">
+                     <li class=\"\">
 								<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"> <i class=\"menu-icon fa fa-file\"></i>$value->courseName</a>
 						</li>
                         ";
