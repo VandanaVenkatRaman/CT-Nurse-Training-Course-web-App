@@ -13,6 +13,24 @@ function shuffle_assoc(&$array) {
     $array = $new;
     return true;
 }
+function send_email($email,$percentage ,$result) {
+    $to = $email;
+    $subject = 'CT Nurses Training Application Test Report';
+    $body= " <div>
+             <h1> CT Nurses Training Application Result </h1>
+             <h2>Test Score: ".$percentage."</h2>
+             <h2>Test Result: ".$result."</h2>
+             </div>       
+    ";
+    $headers = 'From : noreply@ctnursesapp.org';
+   if(mail($to,$subject,$body,$headers)){
+       return true;
+   }
+   else{
+       return false;
+       echo 'There was an error sending the Email';
+   }
+}
 include("dbh.php");
 session_start();
 $email = $_SESSION['email'];
@@ -42,6 +60,7 @@ if($_POST['action'] == "getQuizQuestionsAnswers") {
     echo json_encode($questionsAndAns);
 }
 else if($_POST['action'] == "submitQuizAnswers") {
+    $emailSent = false;
     $totalCorrectAns = 0;
     $totalWrongAns =0;
     $totalQuestion =0;
@@ -67,19 +86,17 @@ else if($_POST['action'] == "submitQuizAnswers") {
 //        if (!$result1) {
 //            echo("Error description: " . mysqli_error($dbconn));
 //        }
-        $score = array("CorrectAns"=>"$totalCorrectAns", "WrongAns"=>"$totalWrongAns");
-
     }
     $grade = ($totalCorrectAns/$totalQuestion) * 100;
-    $selectUser = "SELECT * FROM `user_test_result` where email ='$email'";
+    $selectUser = "SELECT * FROM `user_test_result` where email ='$email' and courseID ='$courseId' ";
     $selectResult  = mysqli_query($dbconn,$selectUser);
-    if(!$row = mysqli_fetch_assoc($selectResult)){
+        if(!$row = mysqli_fetch_assoc($selectResult)){
         $insertUserResultQuery ="INSERT INTO `user_test_result`(`email`, `courseID`, `startDate`, `endDate`, `grade`,`attempt`) VALUES ('$email',$courseId,now(),now(),$grade,1)";
         $insertResult = mysqli_query($dbconn,$insertUserResultQuery);
-    }
-    else{
+        }
+        else{
 
-        $selectUserResultQuery = "SELECT `attempt` FROM `user_test_result` WHERE `email`='$email' ";
+        $selectUserResultQuery = "SELECT `attempt` FROM `user_test_result` WHERE `email`='$email' and courseID ='$courseId'  ";
         $selectResult = mysqli_query($dbconn,$selectUserResultQuery);
 
         $row = mysqli_fetch_array($selectResult);
@@ -88,10 +105,59 @@ else if($_POST['action'] == "submitQuizAnswers") {
 
         if($attempt <3){
             ++$attempt;
-            $updateUserResultQuery ="UPDATE `user_test_result` SET `grade` =$grade , `attempt` = $attempt WHERE `email`='$email' ";
+            $updateUserResultQuery ="UPDATE `user_test_result` SET `grade` =$grade , `attempt` = $attempt WHERE `email`='$email' and courseID ='$courseId'  ";
             $updateResult = mysqli_query($dbconn,$updateUserResultQuery);
         }
+        }
+
+    $courseCount =0;
+    $userScoreTotal =0;
+
+    $courseSelectQuery  = "SELECT DISTINCT `courseID` from `course_section`";
+    $allCourseResult =     mysqli_query($dbconn,$courseSelectQuery);
+
+    while($row = mysqli_fetch_assoc($allCourseResult)){
+    $courseCount++;
     }
+   // echo $courseCount;
+
+    $UserResultSelectQuery  = "SELECT `courseID` FROM `user_test_result` WHERE `email` = '$email' AND (`grade`>=80 OR `attempt` >2)";
+    $allUserResult =     mysqli_query($dbconn,$UserResultSelectQuery);
+
+
+    while($row = mysqli_fetch_assoc($allUserResult)){
+        $userScoreTotal++;
+    }
+    //echo $userScoreTotal;
+
+    if($userScoreTotal == $courseCount){
+        $total =0;
+        $selectGrade = "SELECT `grade` FROM `user_test_result` WHERE  `email` = '$email'";
+        $gradeResult = mysqli_query($dbconn,$selectGrade);
+
+        while($row= mysqli_fetch_array($gradeResult)){
+            $value = $row[0];
+            $total += $value;
+        }
+            $percentage = ($total/$courseCount);
+            if($percentage < 80 ){
+                $result = 'Fail';
+            }
+            else{
+                $result = 'Pass';
+            }
+
+
+     $InsertCourseCompletionQuery = "INSERT INTO user_courseCompletion_result (`email` , `endDate`, `score`, `status`)
+                                     VALUES ('$email',now(),$percentage, '$result')";
+        echo ($InsertCourseCompletionQuery);
+        if(!mysqli_query($dbconn,$InsertCourseCompletionQuery)){
+            echo("Error description: " . mysqli_error($dbconn));
+        }
+
+       $emailSent = send_email($email,$percentage ,$result);
+    }
+    $score = array("CorrectAns"=>"$totalCorrectAns", "WrongAns"=>"$totalWrongAns", "EmailSent" => $emailSent );
     header("Content-type:application/json");
     echo json_encode($score);
 }
