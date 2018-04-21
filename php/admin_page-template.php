@@ -154,7 +154,7 @@ public function DisplayLeftPanel()
                 <li class="menu-item-has-children dropdown">
                     <a href="admin_addQuestion.php"><i class="menu-icon fa fa-file"></i>Add Question</a>
                     <a href="admin_removeQuestion.php"><i class="menu-icon fa fa-file"></i>Remove Question</a>
-                    <a href="#"><i class="menu-icon fa fa-file"></i>Edit Answer</a>
+                    <a href="admin_editQuestion.php"><i class="menu-icon fa fa-file"></i>Edit Question and Answer</a>
                 </li>
 
                 <h3 class="menu-title">REPORTS</h3>
