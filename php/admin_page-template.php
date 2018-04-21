@@ -7,8 +7,7 @@ public $title = 	"Admin | Dashboard";
 public $keywords = 	"Admin";
 public $H2 = "";
 public $headinclude = "../include/head-page-template.txt";
-public $footerinclude = "../include/footer-page-template.txt";
-
+//public $footerinclude = "../include/admin-footer-page-template.js";
 // class Page's operations
 public function __set($name, $value)
 {
@@ -144,23 +143,23 @@ public function DisplayLeftPanel()
                 <!-- <li class="active">
                         <a href="index.html"> <i class="menu-icon fa fa-file"></i>Instructions</a>
                 </li> -->
-                <h3 class="menu-title">Course Material </h3>
+                <h3 class="menu-title">Module Instructions </h3>
                 <li class="menu-item-has-children dropdown">
-                    <a href="#"><i class="menu-icon fa fa-file"></i>Add Course</a>
-                    <a href="#"><i class="menu-icon fa fa-file"></i>Remove Course</a>
-                    <a href="#"><i class="menu-icon fa fa-file"></i>Edit Course</a>
+                    <a href="admin_addModule.php"><i class="menu-icon fa fa-file"></i>Add Module</a>
+                    <a href="admin_removeModule.php"><i class="menu-icon fa fa-file"></i>Delete Module</a>
+                    <a href="admin_editModule.php"><i class="menu-icon fa fa-file"></i>Edit Module </a>
 
                 </li>
                 <h3 class="menu-title">Test Questions and Answers</h3><!-- /.menu-title -->
                 <li class="menu-item-has-children dropdown">
-                    <a href="#"><i class="menu-icon fa fa-file"></i>Add Question</a>
-                    <a href="#"><i class="menu-icon fa fa-file"></i>Remove Question</a>
+                    <a href="admin_addQuestion.php"><i class="menu-icon fa fa-file"></i>Add Question</a>
+                    <a href="admin_removeQuestion.php"><i class="menu-icon fa fa-file"></i>Remove Question</a>
                     <a href="#"><i class="menu-icon fa fa-file"></i>Edit Answer</a>
                 </li>
 
                 <h3 class="menu-title">REPORTS</h3>
                 <li class="menu-item-has-children dropdown"></li>
-                   <li> <a id="report_1" class="report" href=""><i class="menu-icon fa fa-file"></i>View Report</a>
+                   <li> <a id="report_1" class="report" href="admin_Reports.php"><i class="menu-icon fa fa-file"></i>View Report</a>
                 </li>
 
             </ul>
@@ -270,65 +269,6 @@ public function DisplayLeftPanel()
             <script src="../lib/dashboard/js/lib/vector-map/jquery.vmap.min.js"></script>
             <script src="../lib/dashboard/js/lib/vector-map/jquery.vmap.sampledata.js"></script>
             <script src="../lib/dashboard/js/lib/vector-map/country/jquery.vmap.world.js"></script>
-
-				
-            <script type="text/javascript">
-			
-                $(document).ready(function() {
-				
-          
-					
-				$(".report").click(function (e) {
-                    $(".welcome").hide();
-                        e.preventDefault();
-                        $.ajax({
-                            url: 'report.php',
-                            type: 'post',
-                            data: {'action': 'getTestReports'},
-                            success: function (data) {
-                                populateTestReports(data);
-                            },
-                            error: function (xhr, desc, err) {
-                                console.log(xhr);
-                                console.log("Details: " + desc + "\nError:" + err);
-                            }
-                        });
-                    }); 
-
-                     function populateTestReports(data) {
-						 
-                        var html = "";
-                            html += "<div class=\"answer\">";
-							html += "<table id =\"tablestyle\"><tr><th>Email</th><th>First Name</th><th>Last Name</th><th>Start Exam Date</th><th>End Exam Date</th><th> Course Completed</th><th> Grade</th><th>Status</th></div></tr>";
-                        for (var resultid in data) {
-                            var reports = data[resultid];
-                            
-                            for (var index in reports) {
-								
-								html +=  "<tr><td>" + reports[index].email +"</td><td>" + reports[index].firstname +"</td><td>"+reports[index].lastname+"</td><td>"
-								 + reports[index].startdate +"</td><td>"+ reports[index].enddate +"</td><td>"+ reports[index].courseid +"</td><td>"
-								 + reports[index].grade +"</td>";
-								 
-								 if(reports[index].grade>=80){
-									 html += "<td>Pass</td>";
-								 }
-								 else{
-									html += "<td>Fail</td>"; 
-								 }
-								 html += "</tr>";
-                            }
-                        }
-						html += "</table>";
-                            html += "<br>";
-                            
-                            html += "</div>";
-                        $("#reportsall").empty();
-                        $("#reportsall").html(html);
-                        $("#reportid").show();
-                    } 
-                });
-
- 				</script>
     <?php
     }
 
