@@ -10,7 +10,7 @@ $(document).ready(function() {
         $("#questionAndAnswerResult").hide();
         $("#mandatoryQuestionAnswer").hide();
         currentCourseId = $(this).attr('id').split("_")[1];
-        $("#pageHeader").text("Answer the below questions for Course:  "+ currentCourseId);
+        $("#pageHeader").text("Answer the below questions ");
         $.ajax({
             url: 'quiz.php',
             type: 'post',
@@ -74,8 +74,27 @@ $(document).ready(function() {
                 type: 'post',
                 data: {'action': 'submitQuizAnswers', 'ansCollection': ansCollection,'courseId': currentCourseId},
                 success: function (data) {
-                    $("#questionAndAnswerResult").text("Correct Ans: "+ data.CorrectAns +" Wrong Answers:" + data.WrongAns );
+
+                        if (data.Percentage >= 80){
+                            $("#questionAndAnswerResult").text("Your Score: "+ data.Percentage +" Course Completed Successfully ! ");
+                            $("#questionAndAnswerResult").removeClass("alert-danger");
+                            $("#questionAndAnswerResult").addClass("alert-success");
+                        }
+                        else if(data.Percentage< 80 && data.Attempt < 3){
+                            $("#questionAndAnswerResult").text("Your Score: "+ data.Percentage +" Please Retake the Course ! ");
+                            $("#questionAndAnswerResult").removeClass("alert-success");
+                            $("#questionAndAnswerResult").addClass("alert-danger");
+                        }
+                        else {
+                            $("#questionAndAnswerResult").text("Your Score: "+ data.Percentage +" Course Completed! You exceeded the number of attempts. Can't Retake ");
+                            $("#questionAndAnswerResult").removeClass("alert-success");
+                            $("#questionAndAnswerResult").addClass("alert-danger");
+                        }
+
                     $("#questionAndAnswerResult").show();
+                    if (data.EmailSent) {
+                        alert("Copy of your report has been emailed to you.");
+                    }
                 },
                 error: function (xhr, desc, err) {
                     console.log(xhr);
@@ -91,7 +110,7 @@ $(document).ready(function() {
         $("#profile").hide();
 
         currentCourseId = $(this).attr('id').split("_")[1];
-        $("#pageHeader").text("Instruction for Course "+ currentCourseId);
+
         e.preventDefault();
         $.ajax({
             url: 'instructions.php',
@@ -109,8 +128,10 @@ $(document).ready(function() {
     });
 
     function populateCourseMaterial(data) {
+        var course = data[currentCourseId];
+        $("#pageHeader").text("Instruction for Course "+ course.courseName);
         var html = "";
-        var material = data[currentCourseId];
+        var material = course.courseDocument;
         html += "<iframe src=\'" + material + "\' height='600px' width='100%'></iframe>";
 
         $("#instructions").empty();
@@ -148,8 +169,6 @@ $(document).ready(function() {
         $("#gradYear").text("Graduation Year: "+data.graduationYear);
         $("#profile").show();
     }
-
-
 });
 
 
