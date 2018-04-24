@@ -96,7 +96,7 @@
 ?>
 <!-- Left Panel -->
 
-<aside id="left-panel" class="left-panel blue-bkgd" style="width:300px">
+<aside id="left-panel" class="left-panel blue-bkgd">
 <nav class="navbar navbar-expand-sm navbar-default blue-bkgd">
 
 		<div class="navbar-header">
@@ -114,7 +114,7 @@
 						</li> -->
 						<h3 class="menu-title">Settings</h3>
 						<li class="menu-item-has-children dropdown">
-								<a class ="Profile" href="#"><i class="menu-icon fa fa-user"></i>Profile</a>
+								<a class ="Profile" href="view_profile.php"><i class="menu-icon fa fa-user"></i>Profile</a>
 								<a href="forgot_password_validate_email.php"><i class="menu-icon fa fa-user-secret"></i>Reset Password</a>
 						</li>
 						<h3 class="menu-title">ASSIGNED MODULES</h3>
@@ -146,10 +146,6 @@
                     }
                     }
                     ?>
-						<h3 class="menu-title">Help</h3>
-						<li class="menu-item-has-children dropdown">
-								<a href="faq.php"><i class="menu-icon fa fa-question"></i>FAQs</a>
-						</li>
 				</ul>
 		</div><!-- /.navbar-collapse -->
 </nav>
@@ -169,7 +165,7 @@
 				<div class="col-sm-7">
 						<a id="menuToggle" class="menutoggle pull-left"><i class="fa fa fa-tasks"></i></a>
 						<div class="header-left">
-								<button class="search-trigger"><i class="fa fa-search"></i></button>
+								<!-- <button class="search-trigger"><i class="fa fa-search"></i></button> -->
 								<div class="form-inline">
 										<form class="search-form">
 												<input class="form-control mr-sm-2" type="text" placeholder="Search ..." aria-label="Search">

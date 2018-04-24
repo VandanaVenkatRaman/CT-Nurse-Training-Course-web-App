@@ -17,7 +17,7 @@ if (isset($_POST['add'])){
     $selectResult = mysqli_query($dbconn,$selectModuleQuery);
     if(!$row = mysqli_fetch_assoc($selectResult)){
         $insertModuleQuery = "INSERT INTO `course_section`(`courseName`,`courseDescription`,`courseDocument`,`createdBy` ,`createdOn` ,`updatedBy`,`updatedOn`)
-                          VALUES('$courseName' , '$courseDesc' ,'$url','$emailId',now(),'$emailId',now())";
+                          VALUES('$moduleName' , '$moduleDesc' ,'$url','$emailId',now(),'$emailId',now())";
         $result = mysqli_query($dbconn,$insertModuleQuery);
 
         if(!$result) {
@@ -25,7 +25,7 @@ if (isset($_POST['add'])){
             $messageClass = "alert alert-danger";
         }
         else{
-            $msg = $moduleName.' Module Added Successfully !';
+            $msg = $moduleName.' Module Added Successfully!';
             $messageClass = "alert alert-success";
         }
     }
@@ -37,9 +37,10 @@ if (isset($_POST['add'])){
 
 }
 $dashboard->content = "
-<div>
-<h1> Add New Module </h1>
-</div>
+
+<h2> Add New Module </h2>
+
+<div id='admin' class='dynamic-container'>
   <div class=\"row-fluid margin-top\">
 <form class=\"form-horizontal\" method=\"POST\">
   <h4 class=\"$messageClass\">$msg</h4>
@@ -59,7 +60,7 @@ $dashboard->content = "
     <div class=\"col-sm-12\">
       <label for=\"VideoLink\" class=\"control-label\">Module Video Link</label>
       <input type=\"text\" class=\"form-control\" name =\"moduleVideoLink\" id=\"VideoLink\" placeholder=\"Module Video Link\" required>
-      
+
     </div>
   </div>
   <div class=\"form-group\">
@@ -69,9 +70,9 @@ $dashboard->content = "
   </div>
 </form>
   </div>
-
+<p>&nbsp;</p>
+</div>
 ";
 
 $dashboard->Display();
 ?>
-

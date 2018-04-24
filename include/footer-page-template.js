@@ -6,6 +6,7 @@ $(document).ready(function() {
     $(".courseQuiz").click(function (e) {
         $("#instructions").hide();
         $("#profile").hide();
+        $("#dash-inx").hide();
         e.preventDefault();
         $("#questionAndAnswerResult").hide();
         $("#mandatoryQuestionAnswer").hide();
@@ -33,11 +34,11 @@ $(document).ready(function() {
             var answers = data[question];
             html += "<div id=\"q" + questionNumber + "\">";
             html += "<div class=\"question\">";
-            html += "Q" + questionNumber + ") " + question;
+            html += questionNumber + ") " + question;
             html += "</div>";
             html += "<div class=\"answer\">";
             for (var index in answers) {
-                html += "<input type=\"radio\" name=\"q" + questionNumber + "\" value=\"" + answers[index].answerId + "\" required>" + answers[index].answerText + "<br>";
+                html += "<input type=\"radio\" name=\"q" + questionNumber + "\" value=\"" + answers[index].answerId + "\" required>" + "&nbsp;&nbsp;" + answers[index].answerText + "<br>";
             }
             html += "<br>";
             html += "</div>";
@@ -74,22 +75,21 @@ $(document).ready(function() {
                 type: 'post',
                 data: {'action': 'submitQuizAnswers', 'ansCollection': ansCollection,'courseId': currentCourseId},
                 success: function (data) {
-
-                        if (data.Percentage >= 80){
-                            $("#questionAndAnswerResult").text("Your Score: "+ data.Percentage +" Course Completed Successfully ! ");
-                            $("#questionAndAnswerResult").removeClass("alert-danger");
-                            $("#questionAndAnswerResult").addClass("alert-success");
-                        }
-                        else if(data.Percentage< 80 && data.Attempt < 3){
-                            $("#questionAndAnswerResult").text("Your Score: "+ data.Percentage +" Please Retake the Course ! ");
-                            $("#questionAndAnswerResult").removeClass("alert-success");
-                            $("#questionAndAnswerResult").addClass("alert-danger");
-                        }
-                        else {
-                            $("#questionAndAnswerResult").text("Your Score: "+ data.Percentage +" Course Completed! You exceeded the number of attempts. Can't Retake ");
-                            $("#questionAndAnswerResult").removeClass("alert-success");
-                            $("#questionAndAnswerResult").addClass("alert-danger");
-                        }
+                    if (data.Percentage >= 80){
+                        $("#questionAndAnswerResult").html("Your Score: "+ data.Percentage +"<br/>Course Completed Successfully! ");
+                        $("#questionAndAnswerResult").removeClass("alert-danger");
+                        $("#questionAndAnswerResult").addClass("alert-success");
+                    }
+                    else if(data.Percentage< 80 && data.Attempt < 3){
+                        $("#questionAndAnswerResult").html("Your Score: "+ data.Percentage +"<br/>Please Retake the Course! ");
+                        $("#questionAndAnswerResult").removeClass("alert-success");
+                        $("#questionAndAnswerResult").addClass("alert-danger");
+                    }
+                    else {
+                        $("#questionAndAnswerResult").html("Your Score: "+ data.Percentage +"<br/>Course Completed! You exceeded the number of attempts. Can't Retake ");
+                        $("#questionAndAnswerResult").removeClass("alert-success");
+                        $("#questionAndAnswerResult").addClass("alert-danger");
+                    }
 
                     $("#questionAndAnswerResult").show();
                     if (data.EmailSent) {
@@ -108,6 +108,7 @@ $(document).ready(function() {
     $(".instruction").click(function(e) {
         $("#quiz").hide();
         $("#profile").hide();
+        $("#dash-inx").hide();
 
         currentCourseId = $(this).attr('id').split("_")[1];
 
@@ -143,6 +144,7 @@ $(document).ready(function() {
     $(".Profile").click(function (e) {
         $("#quiz").hide();
         $("#instructions").hide();
+        $("#dash-inx").hide();
         e.preventDefault();
         var userId = $('.userId').text();
         $.ajax({
@@ -161,12 +163,12 @@ $(document).ready(function() {
     });
 
     function populateUserInformation(data) {
-        $("#pageHeader").text("User Information");
-        $("#fname").text("First Name: "+data.firstName);
-        $("#lname").text("Last Name: "+data.lastName);
-        $("#emailaddress").text("Email: "+data.email);
-        $("#univName").text("University Name: "+data.universityName);
-        $("#gradYear").text("Graduation Year: "+data.graduationYear);
+        $("#pageHeader").html("User Information");
+        $("#fname").html("<span class='font-bold'>First Name: </span>"+data.firstName);
+        $("#lname").html("<span class='font-bold'>Last Name: </span>"+data.lastName);
+        $("#emailaddress").html("<span class='font-bold'>Email: </span>"+data.email);
+        $("#univName").html("<span class='font-bold'>University Name: </span>"+data.universityName);
+        $("#gradYear").html("<span class='font-bold'>Graduation Year: </span>"+data.graduationYear);
         $("#profile").show();
     }
 });

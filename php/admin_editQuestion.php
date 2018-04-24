@@ -133,12 +133,16 @@ $editModuleSelectCourseDisplay = "<form class=\"form-horizontal\" method=\"POST\
 
 
 $dashboard->content = "
-<div>
-<h1> Edit Questions </h1>
-</div>".$editModuleSelectCourseDisplay."
+
+<h2> Edit Questions </h2>
+
+<div id='admin' class='dynamic-container'>
+".$editModuleSelectCourseDisplay."
 <div>"
   .$populateValue.
   "</div>
+  <p>&nbsp;</p>
+</div>
     ";
 $dashboard->Display();
 ?>

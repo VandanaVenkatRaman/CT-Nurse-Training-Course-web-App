@@ -1,0 +1,32 @@
+<style>
+#tablestyle {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100% !important;
+}
+
+#report table { width: 100% !important; }
+
+#tablestyle td, #tablestyle th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#tablestyle tr:hover {background-color: #ddd;}
+#tablestyle tr:nth-child(even) {
+  background-color: #eee;
+}
+#tablestyle tr:nth-child(odd) {
+  background-color: #fff;
+}
+#tablestyleth, td {
+  padding: 15px;
+  text-align: left;
+}
+#tablestyle th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #404040;
+  color: white;
+}
+</style>

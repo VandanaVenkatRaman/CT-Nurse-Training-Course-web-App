@@ -62,6 +62,9 @@
   <h4 class="<?php echo $messageClass; ?>"><?php echo $msg; ?></h4>
   <div class="form-group">
     <div class="col-sm-12">
+
+      <p class="no-margin text-right"><a href="admin_login.php">Login as Admin &rarr;</a></p>
+
       <label for="inputEmail3" class="control-label">Email</label>
       <input type="email" class="form-control" name ="email" id="inputEmail3" placeholder="Email" required>
     </div>
@@ -86,11 +89,7 @@
       <p class="no-margin">First time taking the course?&nbsp;<a href="registration.php">Create an account &rarr;</a></p>
   </div>
 </div>
-    <div class="row-fluid padding-top">
-        <div class="container-padding border border-radius white-bkgd">
-            <p class="no-margin"><a href="admin_login.php">Login as Admin &rarr;</a></p>
-        </div>
-    </div>
+
 </div>
 </body>
 </html

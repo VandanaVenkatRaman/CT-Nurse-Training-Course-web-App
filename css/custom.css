@@ -8,20 +8,24 @@
  h1 {color:#404040;}
  h2 {padding-bottom: 40px;}
  p {color: #2a2a2a !important;}
-
+.page-content h2 {margin-bottom: -30px !important; text-align: center;}
+.dynamic-container label {font-weight: bold;}
+.text-left  { text-align: left !important; }
 
  /***
   *   BUTTONS
   ***/
 
 .courseQuiz a {border-radius: 10px !important; color: #2a2a2a !important;}
-
+#report-btn {padding: 5px 20px; margin: 0 0 10px 10px;}
 
  /***
   *   HELPER CLASSES
   ***/
 
  .hidden-div { display:none }
+ .x1 {font-size: 1em !important;}
+ .x1-2 {font-size: 1.2em !important; line-height: 1.6em !important;}
  .x2 {font-size: 2em !important;}
  .white-bkgd {background-color:#ffffff;}
  .gray-bkgd {background-color:#ebebeb;}
@@ -34,18 +38,27 @@
  .margin-top {margin-top: 3%;}
  .no-padding {padding: 0px !important;}
  .no-margin {margin: 0px !important;}
+ .heading {font-weight: bold; }
+ .font-bold {font-weight: bold; }
+ .left-indent {padding-left: 30px;}
 
  /***
   *   LAYOUT
   ***/
- .login-container {max-width: 650px; width: 100%; padding-top: 50px; margin: 0 auto;}
- .logo {max-width: 300px; width: 100%;}
+
+ .login-container {max-width: 650px; width: 100%; padding-top: 30px; margin: 0 auto;}
+ .logo {max-width: 200px; width: 100%;}
  .navbar .navbar-brand {border-bottom: 0px !important;}
  .navbar .navbar-nav li > a .menu-icon {color: #fbfbfb !important}
  .navbar .navbar-nav li > a {color: #efefef !important}
  .navbar .menu-title {color: #cdcdcd !important;}
  .navbar .navbar-nav li.menu-item-has-children.show .sub-menu {background-color: #337ab7 !important; }
- .page-content {padding: 5%;}
- #quiz {width: 70% !important; display: inline-block; margin-left: 15%; padding-top: 30px; padding-bottom: 5%; border: 1px solid #cdcdcd; background: #fbfbfb;}
+ .page-content {padding: 3% 5%;}
+ .dynamic-container {padding: 5% 3% !important; background-color: #ffffff; border: 1px solid #cdcdcd; border-radius: 10px;}
+ #quiz {width: 90%; display: inline-block; margin-left: 5%; padding: 5% 3% !important; background-color: #ffffff; border: 1px solid #cdcdcd; border-radius: 10px;}
  #quiz h2 {text-align: center; padding-bottom: 30px; padding-top: 5%;}
- #quiz .question {font-weight: bold; padding-bottom: 5px;}
+ #quiz .question {font-weight: bold; padding-bottom: 10px; font-size: 1em;}
+ #submitQuizAns {width: 80%; margin-left: 10%; margin-top: 3%;}
+ .dynamic-container input {margin-bottom: 20px;}
+ .dynamic-container button {width: 80%; margin-left: 10%; margin-top: 3%;}
+ #admin {width: 90%; display: inline-block; margin-left: 5%; margin-top: 15px; background-color: #ffffff; border: 1px solid #cdcdcd; border-radius: 10px;}

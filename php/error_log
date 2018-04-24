@@ -1,0 +1,1149 @@
+[21-Mar-2018 02:36:43 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nursesapp'@'localhost' (using password: YES) in /home/jonnyreyes13/sw516/team4/php/dbh.php on line 3
+[21-Mar-2018 02:36:45 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nursesapp'@'localhost' (using password: YES) in /home/jonnyreyes13/sw516/team4/php/dbh.php on line 3
+[21-Mar-2018 02:39:07 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[21-Mar-2018 02:39:07 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[21-Mar-2018 02:41:38 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[21-Mar-2018 02:41:38 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[21-Mar-2018 18:10:44 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[21-Mar-2018 18:10:44 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[23-Mar-2018 14:59:38 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[23-Mar-2018 14:59:38 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Mar-2018 16:08:18 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Mar-2018 16:08:18 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Mar-2018 16:08:57 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Mar-2018 16:08:57 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Mar-2018 16:09:13 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 61
+[26-Mar-2018 20:10:57 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[26-Mar-2018 20:10:57 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[26-Mar-2018 20:11:40 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 61
+[26-Mar-2018 20:12:32 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[26-Mar-2018 21:03:24 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[26-Mar-2018 21:03:24 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[26-Mar-2018 21:05:00 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[26-Mar-2018 21:05:00 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[26-Mar-2018 21:05:29 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[26-Mar-2018 21:05:29 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[26-Mar-2018 21:06:02 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[26-Mar-2018 21:06:02 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[26-Mar-2018 21:06:23 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[26-Mar-2018 21:06:23 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[26-Mar-2018 21:06:29 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 61
+[26-Mar-2018 21:06:49 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[26-Mar-2018 21:06:49 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[26-Mar-2018 21:07:10 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 61
+[26-Mar-2018 21:08:17 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 61
+[26-Mar-2018 21:10:51 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/forgot_password_reset_password.php on line 68
+[26-Mar-2018 21:11:05 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 61
+[26-Mar-2018 21:12:34 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[26-Mar-2018 23:18:56 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 61
+[27-Mar-2018 00:44:23 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nursesapp'@'localhost' (using password: YES) in /home/jonnyreyes13/sw516/team4/php/dbh.php on line 3
+[27-Mar-2018 00:46:02 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nursesapp'@'localhost' (using password: YES) in /home/jonnyreyes13/sw516/team4/php/dbh.php on line 3
+[27-Mar-2018 00:46:02 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nursesapp'@'localhost' (using password: YES) in /home/jonnyreyes13/sw516/team4/php/dbh.php on line 3
+[27-Mar-2018 00:46:03 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nursesapp'@'localhost' (using password: YES) in /home/jonnyreyes13/sw516/team4/php/dbh.php on line 3
+[27-Mar-2018 00:47:47 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 00:47:47 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 00:50:33 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 00:50:33 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 00:51:15 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[27-Mar-2018 00:56:46 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[27-Mar-2018 00:57:14 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[27-Mar-2018 00:59:38 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[27-Mar-2018 01:29:30 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[27-Mar-2018 01:29:30 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 6
+[27-Mar-2018 01:29:30 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 191
+[27-Mar-2018 01:29:51 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[27-Mar-2018 13:09:46 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[27-Mar-2018 13:11:35 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[27-Mar-2018 13:12:42 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 13:12:42 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 13:13:08 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[27-Mar-2018 13:16:31 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[27-Mar-2018 16:12:39 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[27-Mar-2018 16:29:23 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[27-Mar-2018 16:42:26 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[27-Mar-2018 16:50:57 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[27-Mar-2018 17:07:25 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[27-Mar-2018 17:10:56 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[27-Mar-2018 17:11:14 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[27-Mar-2018 22:17:06 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[27-Mar-2018 22:17:44 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[27-Mar-2018 22:25:10 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 22:25:10 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 22:25:25 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 22:25:25 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 22:25:44 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 22:25:44 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 23:53:08 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 23:53:08 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 23:53:10 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 23:53:10 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 23:53:48 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 23:53:48 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 23:53:54 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 23:53:54 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 23:54:09 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[27-Mar-2018 23:54:31 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 23:54:31 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 23:55:02 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[27-Mar-2018 23:57:12 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[27-Mar-2018 23:57:59 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 23:57:59 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[27-Mar-2018 23:58:20 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[27-Mar-2018 23:58:57 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[27-Mar-2018 23:58:58 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[27-Mar-2018 23:58:59 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[27-Mar-2018 23:58:59 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[27-Mar-2018 23:59:00 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[27-Mar-2018 23:59:00 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[28-Mar-2018 00:08:41 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[28-Mar-2018 00:16:39 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[28-Mar-2018 00:16:39 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[28-Mar-2018 02:13:11 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[28-Mar-2018 02:13:11 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 191
+[28-Mar-2018 02:13:22 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 9
+[30-Mar-2018 19:04:57 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[31-Mar-2018 17:06:12 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[01-Apr-2018 13:34:26 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[03-Apr-2018 19:12:37 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[03-Apr-2018 19:13:39 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 35
+[03-Apr-2018 19:23:26 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[03-Apr-2018 19:23:26 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[03-Apr-2018 20:50:47 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/forgot_password_reset_password.php on line 68
+[03-Apr-2018 20:51:24 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[03-Apr-2018 23:35:45 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[03-Apr-2018 23:35:45 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[03-Apr-2018 23:36:24 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[03-Apr-2018 23:36:24 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[04-Apr-2018 22:00:38 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[04-Apr-2018 22:06:45 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[04-Apr-2018 22:30:42 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[08-Apr-2018 15:35:47 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[08-Apr-2018 16:44:51 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[08-Apr-2018 21:03:16 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 18
+[08-Apr-2018 21:03:19 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 18
+[09-Apr-2018 01:23:46 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[09-Apr-2018 01:23:46 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 184
+[09-Apr-2018 01:23:50 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 18
+[09-Apr-2018 01:23:53 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 18
+[09-Apr-2018 01:23:54 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[09-Apr-2018 01:23:54 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 184
+[09-Apr-2018 01:24:01 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[09-Apr-2018 01:24:01 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 184
+[09-Apr-2018 01:24:04 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 18
+[09-Apr-2018 01:24:13 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[09-Apr-2018 01:24:13 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 184
+[09-Apr-2018 01:27:37 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[09-Apr-2018 01:27:37 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 184
+[09-Apr-2018 01:27:59 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[09-Apr-2018 01:27:59 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 184
+[09-Apr-2018 01:28:01 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[09-Apr-2018 01:28:01 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 184
+[09-Apr-2018 01:28:03 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[09-Apr-2018 01:28:03 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 184
+[10-Apr-2018 19:45:54 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[10-Apr-2018 19:45:54 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 184
+[10-Apr-2018 22:15:12 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[10-Apr-2018 22:15:29 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 47
+[10-Apr-2018 23:23:50 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[10-Apr-2018 23:23:50 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[11-Apr-2018 00:04:46 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[11-Apr-2018 09:10:30 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[11-Apr-2018 17:39:04 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[13-Apr-2018 00:28:43 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[13-Apr-2018 00:28:44 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 6
+[13-Apr-2018 00:28:44 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 184
+[13-Apr-2018 00:29:00 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[13-Apr-2018 01:34:03 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[13-Apr-2018 01:34:03 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 6
+[13-Apr-2018 01:34:03 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 184
+[13-Apr-2018 01:34:05 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[13-Apr-2018 01:34:05 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 6
+[13-Apr-2018 01:34:05 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 184
+[13-Apr-2018 01:34:11 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[13-Apr-2018 01:34:11 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 6
+[13-Apr-2018 01:34:11 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 184
+[13-Apr-2018 20:51:54 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[13-Apr-2018 21:58:28 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[13-Apr-2018 21:58:28 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[15-Apr-2018 00:01:56 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[15-Apr-2018 00:01:56 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[15-Apr-2018 22:13:09 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[15-Apr-2018 22:13:09 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[16-Apr-2018 00:11:43 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[16-Apr-2018 00:15:34 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[16-Apr-2018 00:16:00 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[16-Apr-2018 00:16:00 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 6
+[16-Apr-2018 00:16:00 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 179
+[16-Apr-2018 00:16:30 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[16-Apr-2018 00:16:30 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 6
+[16-Apr-2018 00:16:30 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 179
+[17-Apr-2018 01:57:10 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[17-Apr-2018 01:57:10 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[17-Apr-2018 01:57:54 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[17-Apr-2018 01:57:54 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[17-Apr-2018 01:57:59 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[17-Apr-2018 01:58:14 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[18-Apr-2018 01:04:40 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[18-Apr-2018 01:05:17 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 01:05:17 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 8
+[18-Apr-2018 01:05:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Page::Display(), 0 passed in /home/jonnyreyes13/sw516/team4/php/faq.php on line 13 and exactly 1 expected in /home/jonnyreyes13/sw516/team4/php/page-template.php:18
+Stack trace:
+#0 /home/jonnyreyes13/sw516/team4/php/faq.php(13): Page->Display()
+#1 {main}
+  thrown in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 18
+[18-Apr-2018 01:05:25 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 01:05:25 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 8
+[18-Apr-2018 01:07:01 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 01:07:01 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 8
+[18-Apr-2018 01:07:43 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 01:07:43 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 8
+[18-Apr-2018 01:08:36 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[18-Apr-2018 01:08:36 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 01:08:36 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/courses.php on line 5
+[18-Apr-2018 01:08:36 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 8
+[18-Apr-2018 01:08:36 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 36
+[18-Apr-2018 01:08:36 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 188
+[18-Apr-2018 01:08:52 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[18-Apr-2018 01:08:52 UTC] PHP Notice:  Undefined variable: Adminname in /home/jonnyreyes13/sw516/team4/php/admin_dashboard.php on line 6
+[18-Apr-2018 01:08:52 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 204
+[18-Apr-2018 02:51:03 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[18-Apr-2018 02:51:03 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[18-Apr-2018 02:52:36 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[18-Apr-2018 02:52:36 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[18-Apr-2018 02:53:06 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[18-Apr-2018 02:53:06 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[18-Apr-2018 02:53:17 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[18-Apr-2018 02:53:24 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 02:54:10 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[18-Apr-2018 02:54:10 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 02:54:59 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 49
+[18-Apr-2018 02:57:18 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 02:58:10 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[18-Apr-2018 03:00:08 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[18-Apr-2018 03:00:08 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 10:18:38 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[18-Apr-2018 10:18:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 10:19:02 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 10:20:39 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[18-Apr-2018 13:05:03 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[18-Apr-2018 13:05:04 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 13:08:26 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 13:17:29 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 13:51:38 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[18-Apr-2018 13:51:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 13:51:38 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/courses.php on line 5
+[18-Apr-2018 13:51:38 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 8
+[18-Apr-2018 13:51:38 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 36
+[18-Apr-2018 13:51:38 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 188
+[18-Apr-2018 13:51:50 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[18-Apr-2018 13:51:50 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 13:52:09 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[18-Apr-2018 13:52:09 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 15:38:03 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[18-Apr-2018 15:38:03 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 15:38:08 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 15:47:13 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[18-Apr-2018 17:34:18 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 18
+[18-Apr-2018 17:37:15 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 18
+[18-Apr-2018 17:37:17 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/instructions.php on line 4
+[18-Apr-2018 17:37:21 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 18
+[18-Apr-2018 17:37:28 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 18
+[18-Apr-2018 17:37:55 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 18
+[18-Apr-2018 17:38:07 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 18
+[18-Apr-2018 17:38:10 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/instructions.php on line 4
+[18-Apr-2018 17:38:17 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/instructions.php on line 4
+[18-Apr-2018 17:38:26 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 18
+[18-Apr-2018 17:38:28 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/instructions.php on line 4
+[18-Apr-2018 17:39:04 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/instructions.php on line 4
+[18-Apr-2018 18:30:43 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/instructions.php on line 4
+[18-Apr-2018 18:30:46 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 18
+[18-Apr-2018 18:31:27 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 18
+[18-Apr-2018 18:31:27 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 49
+[18-Apr-2018 18:31:51 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 18
+[18-Apr-2018 18:31:51 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 49
+[18-Apr-2018 18:32:08 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/instructions.php on line 4
+[18-Apr-2018 19:04:31 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/instructions.php on line 4
+[18-Apr-2018 19:04:32 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/instructions.php on line 4
+[18-Apr-2018 19:04:36 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/instructions.php on line 4
+[18-Apr-2018 19:04:39 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/instructions.php on line 4
+[18-Apr-2018 19:04:46 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 18
+[19-Apr-2018 01:51:49 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[19-Apr-2018 01:51:49 UTC] PHP Notice:  Undefined variable: Adminname in /home/jonnyreyes13/sw516/team4/php/admin_dashboard.php on line 6
+[19-Apr-2018 01:51:49 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 204
+[19-Apr-2018 01:53:25 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[19-Apr-2018 01:53:25 UTC] PHP Notice:  Undefined variable: Adminname in /home/jonnyreyes13/sw516/team4/php/admin_dashboard.php on line 6
+[19-Apr-2018 01:53:25 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 204
+[19-Apr-2018 03:22:23 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[19-Apr-2018 03:22:23 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[19-Apr-2018 03:22:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[19-Apr-2018 03:32:20 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[19-Apr-2018 03:32:20 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[20-Apr-2018 00:08:24 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[20-Apr-2018 00:08:24 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[20-Apr-2018 00:09:33 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[20-Apr-2018 00:09:33 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[20-Apr-2018 00:10:44 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 49
+[20-Apr-2018 00:11:18 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[20-Apr-2018 00:12:22 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[20-Apr-2018 14:30:40 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[20-Apr-2018 14:30:40 UTC] PHP Notice:  Undefined variable: Adminname in /home/jonnyreyes13/sw516/team4/php/admin_dashboard.php on line 6
+[20-Apr-2018 14:30:40 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 204
+[20-Apr-2018 16:36:23 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[20-Apr-2018 16:36:23 UTC] PHP Notice:  Undefined variable: Adminname in /home/jonnyreyes13/sw516/team4/php/admin_dashboard.php on line 6
+[20-Apr-2018 16:36:23 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 204
+[21-Apr-2018 12:36:58 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[21-Apr-2018 12:36:59 UTC] PHP Notice:  Undefined variable: Adminname in /home/jonnyreyes13/sw516/team4/php/admin_dashboard.php on line 6
+[21-Apr-2018 12:36:59 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 204
+[21-Apr-2018 16:04:44 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[21-Apr-2018 16:04:44 UTC] PHP Notice:  Undefined variable: Adminname in /home/jonnyreyes13/sw516/team4/php/admin_dashboard.php on line 6
+[21-Apr-2018 16:04:44 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 204
+[21-Apr-2018 17:38:09 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[21-Apr-2018 17:38:09 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[21-Apr-2018 17:38:22 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[21-Apr-2018 17:38:22 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[21-Apr-2018 17:38:29 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[21-Apr-2018 17:38:29 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[22-Apr-2018 23:31:54 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[22-Apr-2018 23:31:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[22-Apr-2018 23:32:06 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 02:12:32 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[23-Apr-2018 02:12:35 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[23-Apr-2018 12:48:31 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/forgot_password_reset_password.php on line 68
+[23-Apr-2018 12:48:38 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[23-Apr-2018 12:48:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 12:49:42 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 12:52:35 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 12:52:48 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 12:52:50 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 12:53:19 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[23-Apr-2018 12:53:42 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 12:53:44 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[23-Apr-2018 12:54:43 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[23-Apr-2018 12:54:43 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[23-Apr-2018 12:54:48 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[23-Apr-2018 12:54:50 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[23-Apr-2018 12:54:54 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[23-Apr-2018 12:54:58 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[23-Apr-2018 12:55:01 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[23-Apr-2018 12:55:06 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[23-Apr-2018 12:55:19 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[23-Apr-2018 12:55:19 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[23-Apr-2018 12:55:25 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[23-Apr-2018 12:55:37 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 12:55:37 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[23-Apr-2018 12:55:37 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 12:55:41 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 12:55:41 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[23-Apr-2018 12:55:41 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 12:55:46 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 12:55:46 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 46
+[23-Apr-2018 12:55:46 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 12:55:50 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[23-Apr-2018 12:55:54 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[23-Apr-2018 12:55:54 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[23-Apr-2018 12:55:56 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[23-Apr-2018 12:55:58 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[23-Apr-2018 12:56:00 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[23-Apr-2018 12:56:02 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[23-Apr-2018 12:58:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 12:58:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 13:00:51 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[23-Apr-2018 13:00:51 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 13:01:10 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 13:01:15 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 13:02:38 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 13:02:40 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 16:28:08 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[23-Apr-2018 16:28:08 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 16:28:08 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/courses.php on line 5
+[23-Apr-2018 16:28:08 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 8
+[23-Apr-2018 16:28:08 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 46
+[23-Apr-2018 16:28:08 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 187
+[23-Apr-2018 16:31:52 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[23-Apr-2018 16:31:52 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 16:31:52 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/courses.php on line 5
+[23-Apr-2018 16:31:52 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 8
+[23-Apr-2018 16:31:52 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 46
+[23-Apr-2018 16:31:52 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 187
+[23-Apr-2018 16:33:04 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 36
+[23-Apr-2018 16:33:09 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 36
+[23-Apr-2018 16:33:09 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:33:09 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 161
+[23-Apr-2018 16:33:21 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 36
+[23-Apr-2018 16:33:21 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:34:39 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[23-Apr-2018 16:34:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 16:34:39 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/courses.php on line 5
+[23-Apr-2018 16:34:39 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 8
+[23-Apr-2018 16:34:39 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 46
+[23-Apr-2018 16:34:39 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 187
+[23-Apr-2018 16:34:46 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 36
+[23-Apr-2018 16:35:05 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 36
+[23-Apr-2018 16:35:05 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:35:05 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 161
+[23-Apr-2018 16:41:27 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[23-Apr-2018 16:41:27 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[23-Apr-2018 16:41:35 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[23-Apr-2018 16:41:35 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 16:41:35 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/courses.php on line 5
+[23-Apr-2018 16:41:35 UTC] PHP Notice:  Undefined variable: firstname in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 8
+[23-Apr-2018 16:41:35 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/dashboard.php on line 46
+[23-Apr-2018 16:41:35 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/page-template.php on line 187
+[23-Apr-2018 16:41:40 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 36
+[23-Apr-2018 16:42:03 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 36
+[23-Apr-2018 16:42:03 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:42:03 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 161
+[23-Apr-2018 16:42:27 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[23-Apr-2018 16:42:27 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[23-Apr-2018 16:42:38 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[23-Apr-2018 16:42:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 16:43:07 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[23-Apr-2018 16:43:07 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 16:43:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:43:19 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 161
+[23-Apr-2018 16:43:25 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:43:27 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:43:43 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:43:46 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 16:43:55 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:43:55 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 161
+[23-Apr-2018 16:44:01 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:44:01 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 161
+[23-Apr-2018 16:44:08 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:44:08 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:44:13 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 16:44:35 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:44:35 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 161
+[23-Apr-2018 16:45:09 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 16:45:36 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[23-Apr-2018 16:45:36 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[23-Apr-2018 16:46:31 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[23-Apr-2018 16:46:31 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[23-Apr-2018 16:46:42 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[23-Apr-2018 16:46:42 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 16:47:03 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:47:03 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 161
+[23-Apr-2018 16:47:07 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:47:19 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[23-Apr-2018 16:47:23 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 16:47:28 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[23-Apr-2018 16:47:28 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[23-Apr-2018 16:47:40 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[23-Apr-2018 16:47:46 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[23-Apr-2018 16:47:54 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:47:54 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 161
+[23-Apr-2018 16:47:55 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[23-Apr-2018 16:48:20 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[23-Apr-2018 16:48:20 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[23-Apr-2018 16:48:21 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 16:48:21 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[23-Apr-2018 16:48:21 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 16:48:22 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 16:48:22 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[23-Apr-2018 16:48:22 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 16:48:25 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 16:48:25 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[23-Apr-2018 16:48:25 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 16:48:27 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 16:48:27 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[23-Apr-2018 16:48:27 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 16:48:30 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 16:48:30 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 46
+[23-Apr-2018 16:48:30 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 16:48:40 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 16:48:47 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 16:48:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 16:49:04 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:49:04 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 161
+[23-Apr-2018 16:49:11 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:49:13 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[23-Apr-2018 16:49:19 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[23-Apr-2018 16:49:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:49:21 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[23-Apr-2018 16:49:30 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 16:49:30 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[23-Apr-2018 16:49:30 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 16:49:35 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[23-Apr-2018 16:49:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 16:49:55 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:49:55 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 161
+[23-Apr-2018 16:50:04 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:50:08 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 16:50:33 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 16:50:40 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 6
+[23-Apr-2018 16:50:40 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[23-Apr-2018 16:50:40 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 203
+[23-Apr-2018 16:50:49 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 6
+[23-Apr-2018 16:50:49 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[23-Apr-2018 16:50:49 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 203
+[23-Apr-2018 16:51:08 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 6
+[23-Apr-2018 16:51:08 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[23-Apr-2018 16:51:08 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 203
+[23-Apr-2018 16:51:14 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 6
+[23-Apr-2018 16:51:14 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[23-Apr-2018 16:51:14 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 203
+[23-Apr-2018 16:51:16 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 6
+[23-Apr-2018 16:51:16 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[23-Apr-2018 16:51:16 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 203
+[23-Apr-2018 16:51:18 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 6
+[23-Apr-2018 16:51:18 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[23-Apr-2018 16:51:18 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[23-Apr-2018 16:51:18 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 203
+[23-Apr-2018 16:51:20 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 6
+[23-Apr-2018 16:51:20 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 16:51:20 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[23-Apr-2018 16:51:20 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 16:51:20 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 203
+[23-Apr-2018 16:51:23 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 6
+[23-Apr-2018 16:51:23 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 16:51:23 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[23-Apr-2018 16:51:23 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 16:51:23 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 203
+[23-Apr-2018 16:51:33 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 6
+[23-Apr-2018 16:51:33 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 16:51:33 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[23-Apr-2018 16:51:33 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 16:51:33 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 203
+[23-Apr-2018 16:51:36 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 6
+[23-Apr-2018 16:51:36 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 16:51:36 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[23-Apr-2018 16:51:36 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 16:51:36 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 203
+[23-Apr-2018 16:51:38 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 6
+[23-Apr-2018 16:51:38 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 16:51:38 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[23-Apr-2018 16:51:38 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 16:51:38 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 203
+[23-Apr-2018 16:51:41 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 6
+[23-Apr-2018 16:51:41 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[23-Apr-2018 16:51:41 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[23-Apr-2018 16:51:41 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 203
+[23-Apr-2018 16:51:45 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 6
+[23-Apr-2018 16:51:45 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[23-Apr-2018 16:51:45 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 203
+[23-Apr-2018 16:53:21 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 7
+[23-Apr-2018 16:53:21 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[23-Apr-2018 16:53:21 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 203
+[23-Apr-2018 16:53:28 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 6
+[23-Apr-2018 16:53:28 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[23-Apr-2018 16:53:28 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 203
+[23-Apr-2018 17:06:44 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 17:07:08 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[23-Apr-2018 17:07:10 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 17:07:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 17:07:19 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 17:07:19 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[23-Apr-2018 17:07:19 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 17:07:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 17:11:00 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[23-Apr-2018 17:11:26 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[23-Apr-2018 17:11:26 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 17:11:42 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[23-Apr-2018 17:11:42 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 17:38:52 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[23-Apr-2018 17:38:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 17:39:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 17:39:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 17:39:08 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 17:39:34 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[23-Apr-2018 17:39:45 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[23-Apr-2018 17:39:46 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[23-Apr-2018 17:39:47 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[23-Apr-2018 17:40:20 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[23-Apr-2018 17:40:20 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[23-Apr-2018 17:40:37 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[23-Apr-2018 17:40:37 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[23-Apr-2018 17:40:46 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[23-Apr-2018 17:40:46 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 17:41:15 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 17:41:15 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 161
+[23-Apr-2018 17:41:53 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 17:41:57 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 17:42:06 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 17:42:19 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[23-Apr-2018 17:42:19 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[23-Apr-2018 17:42:45 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[23-Apr-2018 17:42:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 17:42:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 17:42:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 18:23:20 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[23-Apr-2018 18:23:21 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 18:23:42 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:23:42 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 161
+[23-Apr-2018 18:24:04 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:25:22 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:25:50 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:26:11 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[23-Apr-2018 18:26:11 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 18:26:38 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:27:09 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:27:11 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:27:12 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:27:18 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:27:18 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:27:18 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:27:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:27:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:27:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:27:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:27:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:27:45 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:27:59 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:27:59 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:27:59 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:28:05 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:28:06 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:28:06 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:28:06 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:28:06 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:28:06 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:28:07 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:28:07 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:28:07 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 18:28:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 20:03:20 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[23-Apr-2018 20:03:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 20:04:16 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:15:10 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[23-Apr-2018 22:15:13 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:15:25 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[23-Apr-2018 22:15:25 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 22:15:37 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 22:15:51 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[23-Apr-2018 22:16:10 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[23-Apr-2018 22:16:12 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:16:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:16:18 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:19:09 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[23-Apr-2018 22:19:22 UTC] PHP Notice:  Undefined variable: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 16
+[23-Apr-2018 22:19:22 UTC] PHP Notice:  Undefined variable: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 20
+[23-Apr-2018 22:19:22 UTC] PHP Notice:  Undefined variable: courseDesc in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 20
+[23-Apr-2018 22:19:27 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[23-Apr-2018 22:20:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:25:11 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:25:16 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:25:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:26:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:26:31 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[23-Apr-2018 22:26:31 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 22:26:48 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[23-Apr-2018 22:26:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:27:45 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[23-Apr-2018 22:27:51 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[23-Apr-2018 22:27:53 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[23-Apr-2018 22:27:57 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[23-Apr-2018 22:28:03 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:31:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:31:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:31:23 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:31:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:33:42 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:33:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:33:57 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[23-Apr-2018 22:33:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 22:36:44 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 22:36:47 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 22:38:01 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 22:38:09 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[23-Apr-2018 22:38:23 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[23-Apr-2018 22:38:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:38:28 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:44:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:44:42 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:44:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:44:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:44:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:44:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:47:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:48:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:48:30 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:48:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:52:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:52:49 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[23-Apr-2018 22:52:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:54:05 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[23-Apr-2018 22:54:08 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:54:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 22:59:52 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[23-Apr-2018 23:00:06 UTC] PHP Notice:  Undefined variable: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 16
+[23-Apr-2018 23:00:06 UTC] PHP Notice:  Undefined variable: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 20
+[23-Apr-2018 23:00:06 UTC] PHP Notice:  Undefined variable: courseDesc in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 20
+[23-Apr-2018 23:00:09 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[23-Apr-2018 23:00:13 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[23-Apr-2018 23:00:17 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[23-Apr-2018 23:00:39 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[23-Apr-2018 23:00:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:01:00 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:02:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:02:56 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:13:58 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[23-Apr-2018 23:14:00 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:16:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:16:28 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:16:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:17:42 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:17:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:18:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:19:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:19:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:33:11 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:33:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:33:16 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 23:33:16 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[23-Apr-2018 23:33:16 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 23:33:18 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:37:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:37:50 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 23:37:50 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[23-Apr-2018 23:37:50 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 23:37:55 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 23:37:55 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[23-Apr-2018 23:37:55 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 23:37:58 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[23-Apr-2018 23:37:58 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 46
+[23-Apr-2018 23:37:58 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[23-Apr-2018 23:38:00 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:40:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:40:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:48:16 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:48:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:48:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:48:25 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[23-Apr-2018 23:48:27 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[23-Apr-2018 23:48:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:48:37 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:53:11 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:53:22 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[23-Apr-2018 23:53:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:53:25 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[23-Apr-2018 23:54:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:56:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:56:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:57:00 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:58:07 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:58:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:59:30 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:59:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:59:42 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:59:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:59:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:59:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[23-Apr-2018 23:59:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 44
+[24-Apr-2018 00:04:07 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 00:04:39 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 00:04:51 UTC] PHP Notice:  Undefined variable: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 16
+[24-Apr-2018 00:04:58 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:07:30 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 00:07:38 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 00:07:53 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 00:10:34 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 00:10:57 UTC] PHP Notice:  Undefined variable: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 16
+[24-Apr-2018 00:10:57 UTC] PHP Notice:  Undefined variable: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 20
+[24-Apr-2018 00:10:57 UTC] PHP Notice:  Undefined variable: courseDesc in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 20
+[24-Apr-2018 00:12:39 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 00:12:56 UTC] PHP Notice:  Undefined index: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 12
+[24-Apr-2018 00:12:56 UTC] PHP Notice:  Undefined index: courseDescription in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 13
+[24-Apr-2018 00:12:56 UTC] PHP Notice:  Undefined variable: moduleName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 33
+[24-Apr-2018 00:13:17 UTC] PHP Notice:  Undefined index: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 12
+[24-Apr-2018 00:13:17 UTC] PHP Notice:  Undefined index: courseDescription in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 13
+[24-Apr-2018 00:13:17 UTC] PHP Notice:  Undefined variable: moduleName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 33
+[24-Apr-2018 00:15:29 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 00:15:39 UTC] PHP Notice:  Undefined variable: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 16
+[24-Apr-2018 00:25:40 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 00:25:43 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 00:25:56 UTC] PHP Notice:  Undefined variable: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 16
+[24-Apr-2018 00:26:49 UTC] PHP Notice:  Undefined variable: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 16
+[24-Apr-2018 00:26:58 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 00:27:01 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 00:27:11 UTC] PHP Notice:  Undefined variable: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 16
+[24-Apr-2018 00:27:23 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 00:34:58 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 00:35:11 UTC] PHP Notice:  Undefined variable: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 16
+[24-Apr-2018 00:35:11 UTC] PHP Notice:  Undefined variable: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 20
+[24-Apr-2018 00:35:11 UTC] PHP Notice:  Undefined variable: courseDesc in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 20
+[24-Apr-2018 00:35:45 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:39:03 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 00:39:07 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 00:39:18 UTC] PHP Notice:  Undefined variable: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 16
+[24-Apr-2018 00:39:22 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 00:39:23 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 00:42:42 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:43:03 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:43:20 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:43:30 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:43:54 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 00:44:23 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:44:23 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:44:23 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:44:25 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:44:25 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:44:25 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:44:29 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:44:29 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 46
+[24-Apr-2018 00:44:29 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:44:32 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 00:44:32 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[24-Apr-2018 00:44:34 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 00:44:39 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:44:39 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:44:39 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:44:45 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:44:45 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:44:45 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:44:47 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:44:47 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 46
+[24-Apr-2018 00:44:47 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:45:16 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:45:16 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:45:32 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:45:32 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:45:32 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:45:34 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:45:34 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:45:34 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:45:35 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:45:35 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 46
+[24-Apr-2018 00:45:35 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:45:38 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 00:46:03 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 00:46:03 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[24-Apr-2018 00:46:04 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 00:46:08 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[24-Apr-2018 00:46:13 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 00:46:14 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:46:14 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:46:14 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:46:17 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:46:17 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:46:17 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:46:22 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 00:46:32 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:46:32 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:46:32 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:46:34 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:46:34 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:46:34 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:46:36 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:46:36 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 46
+[24-Apr-2018 00:46:36 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:46:43 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:46:47 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 00:46:48 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:49:40 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:49:44 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:49:44 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 00:49:48 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 00:49:49 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:50:03 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:51:30 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 00:51:32 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:54:05 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 00:54:16 UTC] PHP Notice:  Undefined variable: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 16
+[24-Apr-2018 00:54:39 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 00:54:47 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 00:54:53 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 00:54:53 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 00:55:35 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:55:35 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:55:35 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:55:37 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:55:37 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:55:37 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:55:41 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:55:41 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 46
+[24-Apr-2018 00:55:41 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:55:50 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:55:50 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:55:53 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 00:55:53 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[24-Apr-2018 00:55:54 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:55:54 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:55:54 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:55:57 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:55:57 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:55:57 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:55:59 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:55:59 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 46
+[24-Apr-2018 00:55:59 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:56:01 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:56:01 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:56:01 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:56:04 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:56:04 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:56:04 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:56:06 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:56:06 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 46
+[24-Apr-2018 00:56:06 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:56:08 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:56:08 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:56:08 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 00:56:09 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 00:56:09 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[24-Apr-2018 00:56:13 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 00:56:13 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[24-Apr-2018 00:56:13 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 00:56:14 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 00:56:14 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[24-Apr-2018 00:56:17 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 00:56:20 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[24-Apr-2018 00:56:22 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 00:56:24 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 00:56:24 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[24-Apr-2018 00:56:27 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 00:56:42 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 00:56:45 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 00:56:45 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[24-Apr-2018 00:56:49 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 00:56:52 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:57:01 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:58:52 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:58:59 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 00:59:14 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 00:59:18 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 00:59:18 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 00:59:18 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 01:02:02 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 01:02:09 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 01:40:32 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 7
+[24-Apr-2018 01:40:32 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 173
+[24-Apr-2018 01:40:35 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 7
+[24-Apr-2018 01:40:35 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 173
+[24-Apr-2018 01:46:35 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_Reports.php on line 7
+[24-Apr-2018 01:46:35 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 173
+[24-Apr-2018 01:52:32 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 01:53:44 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 01:53:58 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 01:54:04 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 01:54:07 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 02:08:03 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/variables.php on line 5
+[24-Apr-2018 02:08:03 UTC] PHP Notice:  Undefined variable: Adminname in /home/jonnyreyes13/sw516/team4/php/admin_dashboard.php on line 6
+[24-Apr-2018 02:08:03 UTC] PHP Notice:  Undefined index: email in /home/jonnyreyes13/sw516/team4/php/admin_page-template.php on line 173
+[24-Apr-2018 12:03:56 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 13:29:34 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 13:31:38 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 13:31:40 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 13:31:40 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 13:31:40 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 13:31:43 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 13:54:46 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Apr-2018 13:54:46 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Apr-2018 13:55:25 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Apr-2018 13:55:25 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Apr-2018 13:55:35 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 13:55:35 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 13:55:48 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:56:24 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:56:31 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:56:31 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:56:33 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:56:34 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:56:34 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:56:34 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:56:34 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:56:35 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:56:35 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:56:35 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:56:38 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:56:38 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:56:38 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:56:49 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:56:59 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:57:00 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:57:00 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:57:00 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:57:00 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:57:16 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:57:37 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:58:08 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 13:58:08 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 13:58:37 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:58:47 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:58:56 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:59:01 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:59:12 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:59:17 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:59:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:59:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:59:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:59:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:59:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:59:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:59:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:59:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 13:59:19 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 14:18:18 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 14:18:37 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 14:18:37 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 14:18:56 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 14:18:58 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 14:19:08 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 14:19:15 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 14:19:26 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 14:19:26 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 14:19:26 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 14:19:31 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 14:19:49 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 14:19:53 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 14:20:08 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 14:20:55 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 14:28:56 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 14:34:27 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 14:34:27 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 14:43:09 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 14:43:09 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 14:43:38 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 14:57:17 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 14:57:17 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 15:15:03 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 15:15:04 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 15:16:02 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 15:16:38 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 15:28:51 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 15:58:50 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 15:59:45 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 15:59:48 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 15:59:50 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 15:59:52 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 15:59:54 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 15:59:54 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[24-Apr-2018 15:59:56 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 15:59:56 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 15:59:56 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 16:00:58 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Apr-2018 16:00:58 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Apr-2018 16:02:26 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Apr-2018 16:02:26 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Apr-2018 16:02:39 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 16:02:40 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 16:03:49 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 16:04:38 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 16:04:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 16:04:56 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 16:05:34 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 16:05:40 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 16:06:04 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 16:06:40 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 16:06:40 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 16:07:26 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 16:07:29 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 16:07:37 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 16:07:47 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 16:07:51 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 16:08:03 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 16:08:06 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 16:08:06 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 16:08:07 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 16:08:07 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 16:08:32 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Apr-2018 16:08:32 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Apr-2018 16:08:50 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 16:35:04 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/forgot_password_reset_password.php on line 68
+[24-Apr-2018 17:31:55 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 17:33:55 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 17:33:56 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 17:33:58 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 17:34:00 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 17:34:01 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 17:34:01 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[24-Apr-2018 17:34:02 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 17:34:02 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 17:34:02 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 17:34:13 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 17:34:15 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 17:34:16 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 17:34:19 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 17:34:20 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 17:34:20 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[24-Apr-2018 17:34:21 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 17:34:21 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 17:34:21 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 17:34:25 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 17:34:25 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 17:34:25 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 17:34:28 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 17:34:28 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 46
+[24-Apr-2018 17:34:28 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 17:34:35 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 17:34:35 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 17:34:35 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 17:35:24 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Apr-2018 17:35:24 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Apr-2018 17:36:03 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Apr-2018 17:36:03 UTC] PHP Notice:  Undefined variable: msg in /home/jonnyreyes13/sw516/team4/php/registration.php on line 104
+[24-Apr-2018 17:36:11 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 17:36:12 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 17:53:54 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 17:54:15 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 17:54:15 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 160
+[24-Apr-2018 17:54:23 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 17:54:33 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 17:54:44 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 17:55:02 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 17:55:03 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 160
+[24-Apr-2018 17:55:07 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 17:55:33 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 17:55:33 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 160
+[24-Apr-2018 17:55:36 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 17:55:54 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 17:55:54 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 160
+[24-Apr-2018 17:55:58 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 17:56:02 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 17:56:10 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 17:56:12 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 17:56:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 17:56:22 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 17:56:34 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 17:59:37 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 17:59:37 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 17:59:51 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 18:02:16 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 18:02:17 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 18:02:18 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 18:02:19 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 18:02:20 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 18:02:20 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[24-Apr-2018 18:02:21 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 18:02:21 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 18:02:21 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 18:33:01 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 18:33:01 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 18:33:59 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 18:47:40 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 18:47:40 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 21:18:51 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 21:18:56 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 21:19:02 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 21:19:04 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 21:19:08 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46
+[24-Apr-2018 21:19:21 UTC] PHP Notice:  Undefined variable: courseName in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 16
+[24-Apr-2018 21:19:24 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 21:19:28 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 21:19:46 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 21:19:47 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 21:20:05 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 21:20:07 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 21:20:29 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addQuestion.php on line 73
+[24-Apr-2018 21:21:02 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 21:21:02 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 21:21:02 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 21:21:05 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 21:21:05 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 21:21:05 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 21:21:08 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 21:21:08 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 46
+[24-Apr-2018 21:21:08 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 118
+[24-Apr-2018 21:21:13 UTC] PHP Notice:  Undefined variable: options in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 14
+[24-Apr-2018 21:21:13 UTC] PHP Notice:  Undefined variable: hideModule in /home/jonnyreyes13/sw516/team4/php/admin_editQuestion.php on line 117
+[24-Apr-2018 21:21:15 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 21:21:15 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[24-Apr-2018 21:21:18 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 62
+[24-Apr-2018 21:21:21 UTC] PHP Notice:  Undefined variable: checkBoxOpt in /home/jonnyreyes13/sw516/team4/php/admin_removeQuestion.php on line 76
+[24-Apr-2018 21:21:32 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/login.php on line 62
+[24-Apr-2018 21:21:32 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/jonnyreyes13/sw516/team4/php/courses.php on line 4
+[24-Apr-2018 21:21:43 UTC] PHP Notice:  Use of undefined constant ansCollection - assumed 'ansCollection' in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 68
+[24-Apr-2018 21:21:43 UTC] PHP Notice:  Undefined variable: attempt in /home/jonnyreyes13/sw516/team4/php/quiz.php on line 160
+[24-Apr-2018 21:22:04 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_login.php on line 61
+[24-Apr-2018 21:22:24 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 21:22:34 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_editModule.php on line 42
+[24-Apr-2018 21:22:37 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_removeModule.php on line 37
+[24-Apr-2018 21:24:25 UTC] PHP Notice:  Undefined variable: messageClass in /home/jonnyreyes13/sw516/team4/php/admin_addModule.php on line 46

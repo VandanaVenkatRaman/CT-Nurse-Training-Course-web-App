@@ -36,7 +36,7 @@ if (isset($_POST['Submit'])){
     }
 }
 
-$selectCourseReportQuery = "SELECT U.`firstName`, U.`lastName` , R.`email`, R.`endDate`, R.`score`, R.`status` FROM `user` U, `user_courseCompletion_result` R WHERE U.`email` = R.`email`".$whereClause;
+$selectCourseReportQuery = "SELECT U.`firstName`, U.`lastName` , R.`email`, R.`endDate`, R.`score`, R.`status` FROM `user` U, `user_coursecompletion_result` R WHERE U.`email` = R.`email`".$whereClause;
 
 $selectCourseResult = mysqli_query($dbconn,$selectCourseReportQuery);
 
@@ -53,9 +53,10 @@ $html .= "</tr>";
 }
 
 $dashboard->content = "
-<div> 
-<h1> Report </h1>
-</div>
+
+<h2> Report View: Completed Courses </h2>
+
+<div class='dynamic-container'>
 <form class=\"form-horizontal\" method=\"POST\">
  <div class='form-group'>
       <div class='col-sm-12'>
@@ -73,12 +74,13 @@ $dashboard->content = "
   	        <option value ='pass'>Pass</option>
   	        <option value ='fail'>Fail</option>
         </select>
-                <button type='submit' class='btn btn-block btn-primary col-sm-2' name ='Submit' >Apply</button>
+                <button id='report-btn' type='submit' class='btn btn-block btn-primary col-sm-2' name ='Submit'>Apply</button>
   	  </div>
  </div>
  </form>
- <div>
- <table id ='tablestyle'>
+ <p>&nbsp;</p>
+ <div id='report'>
+ <table id='tablestyle'>
  <tr>
  <th> First Name</th>
  <th> Last Name</th>
@@ -90,7 +92,9 @@ $dashboard->content = "
 .$html.
 "</table>
 </div>
+
+</div>
+
 ";
 $dashboard->Display();
 ?>
-

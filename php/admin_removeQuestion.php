@@ -53,9 +53,10 @@ if (isset($_POST['Delete'])){
 }
 
 $dashboard->content = "
-<div>
-<h1> Delete Questions </h1>
-</div>
+
+<h2> Delete Questions </h2>
+
+<div id='admin' class='dynamic-container'>
 <form class=\"form-horizontal\" method=\"POST\">
 
   <h4 class=\"$messageClass\">$msg</h4>
@@ -63,18 +64,20 @@ $dashboard->content = "
       <div class=\"col-sm-12\">
         <label for=\"coursename\" class=\"control-label\">Select Module </label>
   	    <select name=\"courseName\"  class=\"form-control\">".$options.
-    "</select>	    
+    "</select>
   	  </div>
   	</div>
-  	
+
   <div>
-  	<button type='submit' class='btn btn-block btn-primary col-sm-12' name ='Select' >Select</button>	
+  	<button type='submit' class='btn btn-block btn-primary col-sm-12' name ='Select' >Select</button>
   </div>
-  	
+
   <div>"
   .$checkBoxOpt.
- "</div>	
+ "</div>
   </form>
+<p>&nbsp;</p>
+</div>  
     ";
 $dashboard->Display();
 ?>

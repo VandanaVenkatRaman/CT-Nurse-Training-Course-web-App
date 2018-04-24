@@ -20,7 +20,7 @@ function send_email($email,$percentage ,$result) {
              <h1> CT Nurses Training Application Result </h1>
              <h2>Test Score: ".$percentage."</h2>
              <h2>Test Result: ".$result."</h2>
-             </div>       
+             </div>
     ";
     $headers = 'From : noreply@ctnursesapp.org';
    if(mail($to,$subject,$body,$headers)){
@@ -87,7 +87,6 @@ else if($_POST['action'] == "submitQuizAnswers") {
 //            echo("Error description: " . mysqli_error($dbconn));
 //        }
     }
-
     $attempt;
     $grade = ($totalCorrectAns/$totalQuestion) * 100;
     $selectUser = "SELECT * FROM `user_test_result` where email ='$email' and courseID ='$courseId' ";
@@ -103,6 +102,7 @@ else if($_POST['action'] == "submitQuizAnswers") {
 
         $row = mysqli_fetch_array($selectResult);
         $attempt = $row[0];
+
 
         if($attempt <3){
             ++$attempt;
@@ -129,6 +129,7 @@ else if($_POST['action'] == "submitQuizAnswers") {
     while($row = mysqli_fetch_assoc($allUserResult)){
         $userScoreTotal++;
     }
+    //echo $userScoreTotal;
 
     if($userScoreTotal == $courseCount){
         $total =0;
@@ -147,16 +148,15 @@ else if($_POST['action'] == "submitQuizAnswers") {
                 $result = 'Pass';
             }
 
-     $InsertCourseCompletionQuery = "INSERT INTO user_courseCompletion_result (`email` , `endDate`, `score`, `status`)
+
+     $InsertCourseCompletionQuery = "INSERT INTO user_coursecompletion_result (`email` , `endDate`, `score`, `status`)
                                      VALUES ('$email',now(),$percentage, '$result')";
-        echo ($InsertCourseCompletionQuery);
         if(!mysqli_query($dbconn,$InsertCourseCompletionQuery)){
             echo("Error description: " . mysqli_error($dbconn));
         }
 
        $emailSent = send_email($email,$percentage ,$result);
     }
-
     $score = array("Percentage"=>"$grade", "Attempt"=>"$attempt", "EmailSent" => $emailSent );
     header("Content-type:application/json");
     echo json_encode($score);

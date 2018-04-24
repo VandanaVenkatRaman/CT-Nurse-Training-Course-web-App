@@ -29,9 +29,10 @@ while($row1 = mysqli_fetch_array($courseNames)){
     $options = $options. "<option value =\"$row1[1]\">".$row1[1]."</option>";
 }
 $dashboard->content = "
-<div>
-<h1> Delete Module </h1>
-</div>
+
+<h2> Delete Module </h2>
+
+<div id='admin' class='dynamic-container'>
 <form class=\"form-horizontal\" method=\"POST\">
   <h4 class=\"$messageClass\">$msg</h4>
     <div class=\"form-group\">
@@ -47,6 +48,8 @@ $dashboard->content = "
       </div>
     </div>
   </form>
+  <p>&nbsp;</p>
+</div>
     ";
 $dashboard->Display();
 ?>

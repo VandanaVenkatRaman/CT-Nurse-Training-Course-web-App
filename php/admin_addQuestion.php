@@ -64,9 +64,10 @@ while($row1 = mysqli_fetch_array($courseNames)){
     $options = $options. "<option value =\"$row1[0]\">".$row1[1]."</option>";
 }
 $dashboard->content = "
-<div>
-<h1> Add Question </h1>
-</div>
+
+<h2> Add Question </h2>
+
+<div id='admin' class='dynamic-container'>
 <form class=\"form-horizontal\" method=\"POST\">
 
   <h4 class=\"$messageClass\">$msg</h4>
@@ -97,32 +98,32 @@ $dashboard->content = "
   <div class=\"form-group\">
     <div class=\"col-sm-12\">
       <label for=\"Option\" class=\"control-label\">Option 1</label>
-      <input type=\"text\" class=\"form-control\" name =\"option1\" id=\"VideoLink\" placeholder=\"Option 1\" required>     
+      <input type=\"text\" class=\"form-control\" name =\"option1\" id=\"VideoLink\" placeholder=\"Option 1\" required>
     </div>
   </div>
   <div class=\"form-group\">
     <div class=\"col-sm-12\">
       <label for=\"Option\" class=\"control-label\">Option 2</label>
-      <input type=\"text\" class=\"form-control\" name =\"option2\" id=\"VideoLink\" placeholder=\"Option 2\" required>     
+      <input type=\"text\" class=\"form-control\" name =\"option2\" id=\"VideoLink\" placeholder=\"Option 2\" required>
     </div>
   </div>
   <div class=\"form-group\">
     <div class=\"col-sm-12\">
       <label for=\"Option\" class=\"control-label\">Option 3</label>
-      <input type=\"text\" class=\"form-control\" name =\"option3\" id=\"VideoLink\" placeholder=\"Option3\" required>     
+      <input type=\"text\" class=\"form-control\" name =\"option3\" id=\"VideoLink\" placeholder=\"Option3\" required>
     </div>
   </div>
   <div class=\"form-group\">
     <div class=\"col-sm-12\">
       <label for=\"Option\" class=\"control-label\">Option 4</label>
-      <input type=\"text\" class=\"form-control\" name =\"option4\" id=\"VideoLink\" placeholder=\"Option 4\" required>     
+      <input type=\"text\" class=\"form-control\" name =\"option4\" id=\"VideoLink\" placeholder=\"Option 4\" required>
     </div>
   </div>
   <div class=\"form-group\">
       <div class=\"col-sm-12\">
         <label for=\"Correct Answer\" class=\"control-label\">Correct Answer</label>
   	    <select required name=\"correctAns\"  class=\"form-control\">
-  	        <option value =\"\" >SELECT</option> 
+  	        <option value =\"\" >SELECT</option>
   	        <option value =\"1\">Option 1</option>
   	        <option value =\"2\">Option 2</option>
   	        <option value =\"3\">Option 3</option>
@@ -136,6 +137,8 @@ $dashboard->content = "
       </div>
     </div>
   </form>
+  <p>&nbsp;</p>
+</div>
     ";
 $dashboard->Display();
 ?>

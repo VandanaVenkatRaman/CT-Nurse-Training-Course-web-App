@@ -30,7 +30,7 @@ public function Display()
     $this->DisplayH2();
     echo $this->content;
     echo "</div>\n";
-    $this -> DisplayFooterInclude();
+    //$this -> DisplayFooterInclude();
     echo "</body>\n</html>\n";
 }
 
@@ -55,7 +55,7 @@ public function DisplayHeader()
 
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/custom.css">
-	<link rel="stylesheet" href="../css/table.css">
+	  <link rel="stylesheet" href="../css/table.css">
 
     <!-- DASHBOARD CSS -->
 
@@ -68,36 +68,6 @@ public function DisplayHeader()
     <link href="../lib/dashboard/css/lib/vector-map/jqvmap.min.css" rel="stylesheet">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
-	
-	<style>
-	#tablestyle {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-	}
-	#tablestyle td, #tablestyle th {
-    border: 1px solid #ddd;
-    padding: 8px;
-	}
-	#tablestyle tr:hover {background-color: #ddd;}
-	#tablestyle tr:nth-child(even) {
-    background-color: #eee;
-	}
-	#tablestyle tr:nth-child(odd) {
-    background-color: #fff;
-	}
-	#tablestyleth, td {
-    padding: 15px;
-    text-align: left;
-	}
-	#tablestyle th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #4286f4;
-    color: white;
-	}
-	</style>
 
     <script src="../lib/dashboard/js/vendor/jquery-2.1.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
@@ -181,7 +151,7 @@ public function DisplayLeftPanel()
             <div class="col-sm-7">
                 <a id="menuToggle" class="menutoggle pull-left"><i class="fa fa fa-tasks"></i></a>
                 <div class="header-left">
-                    <button class="search-trigger"><i class="fa fa-search"></i></button>
+                    <!-- <button class="search-trigger"><i class="fa fa-search"></i></button> -->
                     <div class="form-inline">
                         <form class="search-form">
                             <input class="form-control mr-sm-2" type="text" placeholder="Search ..." aria-label="Search">
@@ -230,22 +200,8 @@ public function DisplayLeftPanel()
                 </div>
             </div>
         </div>
-		
-		<div class="content mt-3" id="reportid" style="display:none;">
-			<h2 style="text-align: center">Test Reports</h2>
-			<div id="reportsall" class="text-dark col-md-12">
-			
-			</div>
-			
-		</div>
-		
-		<div class="content mt-3" id="course" style="display:none;">
-				                    <iframe width="750" height="600" scrolling="no" frameborder="0"  style="overflow:hidden;" src="http://my.visme.co/projects/dmvvdg0k-6ep5dm1gwej75dz3">
-				                        </iframe><br> <br>
-			
-                  
-			</div>
-			
+
+
         <div class="col-sm-8">
             <div class="page-header float-right">
                 <div class="page-title">
@@ -256,19 +212,7 @@ public function DisplayLeftPanel()
             </div>
         </div>
     </div>
- <script src="../lib/dashboard/js/vendor/jquery-2.1.4.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-        <script src="../lib/dashboard/js/plugins.js"></script>
-        <script src="../lib/dashboard/js/main.js"></script>
 
-
-            <script src="../lib/dashboard/js/lib/chart-js/Chart.bundle.js"></script>
-            <script src="../lib/dashboard/js/dashboard.js"></script>
-            <script src="../lib/dashboard/js/widgets.js"></script>
-            <script src="../lib/dashboard/js/lib/vector-map/jquery.vmap.js"></script>
-            <script src="../lib/dashboard/js/lib/vector-map/jquery.vmap.min.js"></script>
-            <script src="../lib/dashboard/js/lib/vector-map/jquery.vmap.sampledata.js"></script>
-            <script src="../lib/dashboard/js/lib/vector-map/country/jquery.vmap.world.js"></script>
     <?php
     }
 
