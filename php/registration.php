@@ -12,6 +12,7 @@
       $lastname = mysqli_real_escape_string($dbconn,$_POST['lastname']);
       $email = mysqli_real_escape_string($dbconn,$_POST['email']);
       $password = mysqli_real_escape_string($dbconn,$_POST['password']);
+      $password_hashed = password_hash($password, PASSWORD_DEFAULT);
       $universityname = mysqli_real_escape_string($dbconn,$_POST['universityname']);
       $graduationyear = mysqli_real_escape_string($dbconn,$_POST['graduationyear']);
       $securityquestion = mysqli_real_escape_string($dbconn,$_POST['security_question']);
@@ -33,7 +34,7 @@
          $universityname ="";
        }
           $sql = "INSERT INTO `user` (`email`, `password`, `firstName`, `lastName`, `securityQuestion`, `securityAnswer`, `graduationYear`, `isActive`, `createdBy`, `createdOn`, `updatedBy`, `updatedOn`, `universityFlag`, `otherUniversity`, `schoolID`)
-              values ('$email', '$password', '$firstname', '$lastname', '$securityquestion', '$securityanswer', '$graduationyear', 'y' ,'$firstname', NOW(), '$firstname', NOW(), '$univflag', '$universityname','$schoolid')";
+              values ('$email', '$password_hashed', '$firstname', '$lastname', '$securityquestion', '$securityanswer', '$graduationyear', 'y' ,'$firstname', NOW(), '$firstname', NOW(), '$univflag', '$universityname','$schoolid')";
 
        if (!mysqli_query($dbconn,$sql)){
           //echo("Error description: " . mysqli_error($dbconn));

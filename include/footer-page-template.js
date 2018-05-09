@@ -130,7 +130,7 @@ $(document).ready(function() {
 
     function populateCourseMaterial(data) {
         var course = data[currentCourseId];
-        $("#pageHeader").text("Instruction for Course "+ course.courseName);
+        $("#pageHeader").text("Tutorial for Course "+ course.courseName);
         var html = "";
         var material = course.courseDocument;
         html += "<iframe src=\'" + material + "\' height='600px' width='100%'></iframe>";

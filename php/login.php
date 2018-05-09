@@ -6,26 +6,26 @@
   $msg = '';
 
    if (isset($_POST['signin']) && !empty($_POST['email']) && !empty($_POST['password'])) {
-   $uname = $_POST['email'];
-   $pwd = $_POST['password'];
+       $uname = $_POST['email'];
+       $pwd = $_POST['password'];
 
-   $sql = "Select * from user where email='$uname' AND password='$pwd'";
-   $result = mysqli_query($dbconn,$sql);
+       $sql = "Select `password` from `user` where `email`='$uname'";
+       $result = mysqli_query($dbconn, $sql);
 
-   if(!$row = mysqli_fetch_assoc($result)){
-     $msg = 'Wrong username or password';
-     $messageClass = "alert alert-danger";
+       while ($row = mysqli_fetch_array($result)) {
+           $password_hashed = $row[0];
+       }
+       if (password_verify($pwd, $password_hashed) || $pwd == $password_hashed) {
+           $_SESSION['valid'] = true;
+           $_SESSION['timeout'] = time();
+           $_SESSION['email'] = $_POST['email'];
+           header("Location: dashboard.php");
+       } else {
+           $msg = 'Wrong username or password';
+           $messageClass = "alert alert-danger";
+       }
 
-   } else {
-     $_SESSION['valid'] = true;
-     $_SESSION['timeout'] = time();
-     $_SESSION['email'] = $_POST['email'];
-       header("Location: dashboard.php");
    }
-} else {
- $messageClass = "none";
- $msg = "";
- }
 ?>
 <!DOCTYPE html>
 <html lang="en">

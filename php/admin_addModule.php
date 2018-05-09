@@ -13,7 +13,7 @@ if (isset($_POST['add'])){
     $moduleDesc = $_POST['moduleDescription'];
     $url = $_POST['moduleVideoLink'];
 
-    $selectModuleQuery ="SELECT `courseName` FROM `course_section` WHERE `courseName` = '$courseName'";
+    $selectModuleQuery ="SELECT `courseName` FROM `course_section` WHERE `courseName` = '$moduleName'";
     $selectResult = mysqli_query($dbconn,$selectModuleQuery);
     if(!$row = mysqli_fetch_assoc($selectResult)){
         $insertModuleQuery = "INSERT INTO `course_section`(`courseName`,`courseDescription`,`courseDocument`,`createdBy` ,`createdOn` ,`updatedBy`,`updatedOn`)

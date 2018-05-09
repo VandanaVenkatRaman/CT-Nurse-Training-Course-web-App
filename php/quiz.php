@@ -22,7 +22,7 @@ function send_email($email,$percentage ,$result) {
              <h2>Test Result: ".$result."</h2>
              </div>
     ";
-    $headers = 'From : noreply@ctnursesapp.org';
+    $headers = 'From : phpacademy <someone@phpacademy.org>';
    if(mail($to,$subject,$body,$headers)){
        return true;
    }

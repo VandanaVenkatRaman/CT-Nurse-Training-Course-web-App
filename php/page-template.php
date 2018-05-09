@@ -124,7 +124,7 @@
                             echo "<li class=\"menu-item-has-children dropdown\">
 								<a href=\"#\" class=\"dropdown-toggle\" id=\"course1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"> <i class=\"menu-icon fa fa-file\"></i>$value->courseName</a>
 								<ul class=\"sub-menu children dropdown-menu\">
-										<li><i class=\"fa fa-table\"></i><a id=\"instructions_$key\" class=\"instruction\" style=\"cursor: pointer;\">Instructions</a></li>";
+										<li><i class=\"fa fa-table\"></i><a id=\"instructions_$key\" class=\"instruction\" style=\"cursor: pointer;\">Tutorial</a></li>";
 
                         if ($value->isQuiz) {
                                         echo "<li><i class=\"fa fa-table\"></i><a id=\"quiz_$key\" class=\"courseQuiz\" style=\"cursor: pointer;\">Quiz</a></li>";

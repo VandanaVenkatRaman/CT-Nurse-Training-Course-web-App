@@ -9,22 +9,22 @@ $options = '';
 $courseNameQuery = "SELECT * from `course_section`";
 $courseNames = mysqli_query($dbconn,$courseNameQuery);
 
-if (isset($_POST['Module'])){
+if (isset($_POST['updateModule'])){
     $moduleName = $_POST['moduleName'];
     $moduleDesc = $_POST['moduleDescription'];
     $moduleVideo = $_POST['moduleVideoLink'];
 
     $UpdateModuleQuery = "UPDATE `course_section`
-                          SET `courseDescription` = '$courseDesc',`courseDocument` = '$courseVideo' , `updatedBy` = '$emailId', `updatedOn` = now()
-                          WHERE `courseName` = '$courseName'";
-    $UpdateResult = mysqli_query($dbconn,$UpdateModuleQuery);
+                          SET `courseDescription` = '$moduleDesc',`courseDocument` = '$moduleVideo' , `updatedBy` = '$emailId', `updatedOn` = now()
+                          WHERE `courseName` = '$moduleName'";
+       $UpdateResult = mysqli_query($dbconn,$UpdateModuleQuery);
 
     if(!$UpdateResult) {
-        $msg = 'Failed to Edit the Module '.$moduleName;
+        $msg = 'Failed to Delete the Module '.$moduleName;
         $messageClass = "alert alert-danger";
     }
     else{
-        $msg = $moduleName.' Updated Successfully!';
+        $msg = $moduleName.'    Updated Successfully !';
         $messageClass = "alert alert-success";
     }
 }
@@ -32,9 +32,11 @@ $options = "<option value =\"\">SELECT</option>";
 while($row1 = mysqli_fetch_array($courseNames)){
     $options = $options. "<option value =\"$row1[1]\">".$row1[1]."</option>";
 }
+
 $dashboard->content = "
 
 <h2> Edit Module </h2>
+
 
 <div id='admin' class='dynamic-container'>
 <form class=\"form-horizontal\" method=\"POST\">
@@ -65,7 +67,7 @@ $dashboard->content = "
       </div>
     </div>
   </form>
-<p>&nbsp;</p>
+  <p>&nbsp;</p>
 </div>
     ";
 $dashboard->Display();
